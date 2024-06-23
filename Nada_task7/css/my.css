@@ -1,0 +1,1365 @@
+img{
+    width: 100%;
+    display: block;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clr{
+    clear:both
+}
+.container{
+    margin: auto;
+    width: 80%;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Source Serif 4', serif;
+    background-color: #f8f8f8;
+    font-family: "Roboto", Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+header .list{
+    padding: 0px 100px;
+    float: right;
+}
+header .list nav{
+  
+   float: right;
+}
+header .list nav ul li{
+    display: inline-block;
+    margin: 25px 80px 0px 0px;
+    color: #fff;
+    
+}
+header .list a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700px;
+    position: relative;
+    top:25px;
+    left:-180px ;
+    
+}
+
+.sec1{
+    height: 100vh;
+    background-image: url(../img/bg_1.jpg.webp);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-left: 70px;
+
+}
+.sec1 h1{
+    font-weight: 400;
+color: #fff;
+font-size: 60px;
+line-height: 1.2;
+margin-top: 250px;
+position: relative;
+display: inline-block;
+}
+.sec1 h1 span{
+    font-weight: 700;
+color: #0779e4;
+font-size: 13px;
+    background-color: #fff;
+ border-radius: 4px;
+padding: 4px 9px;
+position: absolute;
+top: -25px;
+left: 0;
+}
+.sec1 h2{
+    visibility: hidden;
+}
+.sec1 h2::after{
+    content: "";
+    animation-name: aniname;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    color: #fff;
+
+    visibility: visible;
+}
+
+@keyframes aniname{
+    0%{
+        content: "";
+    }
+    5%{
+        content:"A ";
+    }
+    7%{
+        content:"A De";
+    }
+    10%{
+        content:"A Deve";
+    }
+    13%{
+        content: "A Develop";
+    }
+    15%{
+        content: "A Developer";
+        
+    }
+    17%{
+        content: " A Develop";
+    }
+    20%{
+        content:"A Develo";
+    }
+    21%{
+        content: "A Deve";
+    }
+    23%{
+        content:"A";
+    }
+    25%{
+        content: "";
+    }
+    27%{
+        content:"I ";
+    }
+    30%{
+        content: "I love";
+    }
+    33%{
+        content: "I love Des";
+    }
+    35%{
+        content: "I love Design";
+
+    }
+    37%{
+        content: "I love Des";
+    }
+    40%{
+        content: "I love";
+    }
+    43%{
+        content:"I lo";
+    }
+    46%{
+        content:"I ";
+    }
+    50%{
+        content: "";
+    }
+    52%{
+        content:"A ";
+    }
+    55%{
+        content:"A web";
+    }
+    57%{
+        content:"A web de";
+    }
+    59%{
+        content:"A web desi"
+    }
+    62%{
+        content:"A web design";
+
+    }
+    63%{
+        content:"A web desige";
+    }
+    64%{
+        content:"A web desiger";
+
+    }
+    66%{
+        content:"A web design";
+    }
+    68%{
+        content:"A web desi";
+
+    }
+    70%{
+        content:"A web de";
+
+    }
+    72%{
+        content:"A web";
+
+
+    }
+    74%{
+        content:"A ";
+
+    }
+    75%{
+        content: "";
+    }
+    77%{
+        content: "I ";
+    }
+    79%{
+        content:"I lo";
+    }
+    80%{
+        content :"I love ";
+    }
+    82%{
+        content:"I love to dev";
+    }
+    84%{
+        content:"I love to dev";
+    }
+    85%{
+        content: "I love to develop";
+    }
+    86%{
+        content:"I love to devl";
+    }
+    88%{
+        content:"I love to dev";
+    }
+    90%{
+        content :"I love to ";
+    }
+    92%{
+        content:"I love";
+    }
+    95%{
+        content :"I lo ";
+
+    }
+    97%{
+        content: "I ";
+    }
+    100%{
+        content: "";
+    }
+
+    }
+    
+ .sec1 p{
+        color: #fff;
+        font-size: 16px;
+line-height: 1.8;
+font-weight: 400;
+width: 40%;
+margin-top: 80px;
+    }
+
+.sec1 .btns{
+margin-top: 30px;
+
+}           
+.sec1 .btns button{
+  border: 2px solid transparent;
+  padding: 15px 15px;
+  border-radius: 3%;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #0779e4;
+  color:#fff;
+  height: 50px;
+       
+}
+.sec1 .btns .v{
+   color: #0779e4;
+    background-color:#fff;
+    margin-left: 3px;
+
+}
+    
+.sec1 .social{
+    margin-top: 50px;
+    color: #fff;
+
+}
+.sec1 .social span{
+    margin-left: 9px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.sec2{
+padding:110px 0px;
+
+}
+
+.sec2 .sora{
+    float: left;
+   
+    
+   
+}
+
+
+.sec2 .sora img{
+    width: 650px;
+ 
+}
+.sec2 .txt{
+    width: 35%;
+   margin-left: 40px;
+}
+.sec2 .txt ul{
+    list-style-type: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.sec2 .txt ul li{
+   
+    margin: 10px 10px;
+    display: inline-block;
+   
+    background-color: #0779e4;   
+    color: #fff;
+  padding: 20px 10px;
+  
+  border-radius: 2%;
+  text-transform: uppercase;
+}
+.sec2 .txt ul .about{
+    background-color:gray;   
+    color: #fff;
+}
+.sec2 .txt h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.sec2 .txt p{
+    
+font-size: 16px;
+line-height: 1.8;
+font-weight: 400;
+color: #999999;
+margin-bottom: 20px;
+}
+.sec2 .txt h3{
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+    
+}
+.sec2 .mine{
+    position: relative;
+
+}
+.sec2 .sora::after{
+    content: "";
+    width: 100%;
+    height: 15%;
+    background-color: #89c4fb;
+    position: absolute;
+  top:50%;
+  left:-4%;
+
+ opacity: 1;
+ z-index: -1;
+}
+.sec2 .sora::before{
+    content: "";
+    width: 100%;
+    height: 15%;
+    background: #57abfa;
+    position: absolute;
+  top:65%;
+  left:-4%;
+
+ opacity: 1;
+ z-index: -1;
+}
+/*  */
+.sec3{
+    padding:70px 20px;
+}
+.sec3 .txt{
+    text-align: center;
+}
+.sec3 .txt h2{
+    margin-top: 7px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+
+.sec3 .txt span{
+    font-size: 13px;
+display: block;
+color: #0779e4;
+font-weight: 700;
+text-transform: uppercase;
+}
+.sec3 .col{
+    float: left;
+    width: 33.33%;
+    padding: 0px 15px;
+}
+.sec3 .col .card .s{
+font-size: 40px;
+color: #ffffff;
+width: 100px;
+height:70px;
+text-align: center;
+background-color: #0779e4;
+padding-top: 9px;
+
+}
+.sec3 .col .card h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sec3 .col .card{
+    background-color: #fff;
+    padding: 50px 40px;
+    
+}
+.sec3 .col .card h2{
+    color: #0779e4;
+}
+.sec3 .col .card p{
+    color: #999999;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 20px;
+    }
+.sec3 .col .card .read{
+    color: #0779e4;
+}
+.sec3 .kalam{
+    margin-top: 30px;
+    text-align: left;
+   
+    position: relative;
+    left: 15%;
+    width: 60%;
+ 
+}
+.sec3 .kalam strong{
+color: #999999;
+}
+.sec3 .kalam strong a{
+    color: #0779e4;
+}
+.sec3 .kalam p{
+    color: #999999;
+    margin-top: 17px;
+    margin-bottom: 30px;
+
+}
+/*  */
+
+.sec4{
+    height: 250px;
+    background-image: url(../img/bg2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    padding: 50px;
+   
+   
+}
+.sec4 .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #0779e4;
+    opacity: 0.9;
+    position: absolute;
+    inset: 0;
+    padding: 50px 80px;
+}
+.sec4 .overlay .col{
+    margin-top: 40px;
+    float: left;
+    width: 33.33%;
+   
+}
+.sec4 .overlay .col .card i{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.sec4 .overlay .col .card{
+text-align: center;
+color: #f8f8f8;
+
+}
+.sec4 .overlay .col .card span{
+    margin-left: 80px;
+    display: block;
+color: rgba(255, 255, 255, 0.9);
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 700;
+}
+.sec4 .overlay .col .card .pro{
+padding-left: 50px;
+}
+.sec4 .overlay .col .card h2{
+    font-size: 38px;
+font-weight: 700;
+color: #fff;
+line-height: 1;
+
+}
+/*  */
+
+.sec5 .txt{
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 40px;
+
+
+}
+.sec5 .txt span{
+    color: #0779e4;
+    font-size: 13px;
+display: block;
+margin-bottom: 5px;
+
+font-weight: 700;
+}
+.sec5 .txt h2{
+    font-size: 40px;
+line-height: 1.4;
+color: #999999;
+}
+.sec5 .col{
+    float: left;
+    width: 50%;
+    padding: 0px 15px;
+}
+.sec5 .col .card1{
+    height: 700px;
+    background-image: url(../img/sorA.webp);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+.sec5 .col .card2{
+    height: 700px;
+    background-image: url(../img/sorb.webp);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+.sec5 .col .card3{
+    height: 700px;
+    background-image: url(../img/sorc.webp);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+.sec5 .col .card4{
+    height: 700px;
+    background-image: url(../img/sorD.webp);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+.sec5 .col .card5{
+    height: 700px;
+    background-image: url(../img/sorE.webp);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+.sec5 .col .card6{
+    height: 700px;
+    background-image: url(../img/sorf.webp);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+.sec5 .col .card{
+    margin-top: 20px; position: relative;
+}
+.sec5 .col .card .overlay .ovtxt{
+    padding:  80px 50px;
+    margin-top: 80px;
+    color: #f8f8f8;
+}
+.sec5 .col .card .overlay .ovtxt h3{
+
+    color: #f8f8f8;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.sec5 .col .card .overlay .ovtxt a{
+    color: #f8f8f8;
+    display: block;
+
+}
+.sec5 .col .overlay{
+    width: 100%;
+    height: 100%;
+    background-color:#0779e4;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 1;
+    text-align: center;
+    padding: 90px;
+    transition: all 1s;
+}
+.sec5 .col .overlay:hover{
+    opacity: 1;
+}
+/*  */
+.sec6{
+    padding: 80px 80px;
+
+    
+
+}
+.sec6 .txt{
+    text-align: center;
+  
+   
+}
+.sec6 .txt span{
+    font-size: 13px;
+margin-bottom: 5px;
+color: #0779e4;
+font-weight: 700;
+text-transform: uppercase;
+}
+.sec6 .txt h2{
+font-size: 40px;
+font-weight: 700;
+line-height: 1.4;
+}
+.sec6 .col{
+    width: 33.33%;
+    float: left;
+    padding:0px 15px;
+    margin-top: 50px;
+}
+
+.sec6 .col .card .imgid img{
+    max-width: 80px;
+
+ border-radius: 50%;
+ margin-right:  15px;
+
+    
+}
+.sec6 .col .card{
+    background-color: #fff;
+    padding: 20px;
+}
+.sec6 .col .card .imgid .l {
+    float: left;
+}
+.sec6 .col .card .imgid span{
+    font-size: 13px;
+margin-bottom: 5px;
+color: #0779e4;
+font-weight: 700;
+text-transform: uppercase;
+
+}
+.sec6 .col .card  p{
+    color: #999999;
+    margin-left: 20px;
+    width: 88%;
+    margin-top: 20px;
+}
+.sec6 .l{
+    width:60%;
+}
+/*  */
+.sec7{
+    padding: 80px;
+}
+.sec7 .col {
+    width: 50%;
+    float: left;
+    padding: 0px 15px;
+}
+.sec7 .col .card{
+    background-color: #fff;
+    margin-top: 15px;
+}
+.sec7 .col .card .cardimg1{
+    height: 300px;
+    background-image: url(../img/pic1.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sec7 .col .card .cardimg2{
+    height: 300px;
+    background-image: url(../img/pic2.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sec7 .col .card .cardimg3{
+    height: 300px;
+    background-image: url(../img/pic3.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.sec7 .col .card .cardimg4{
+    height: 300px;
+    background-image: url(../img/pic4.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sec7 .col .card .cardimg5{
+    height: 300px;
+    background-image: url(../img/pic5.webp);
+    background-position: center;
+    background-size: cover;
+}
+.sec7 .col .card .cardimg6{
+    height: 300px;
+    background-image: url(../img/pic4.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.sec7 .col .card .cardbody{
+    color: #999999;
+    padding: 20px;
+}
+.sec7 .col .card .cardbody i{
+    color: #0779e4;
+    margin: 10px;
+}
+.sec7 .col .card .cardbody span{
+    color: #0779e4;
+   
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 600;
+}
+.sec7 .col .card .cardbody .pp{
+    margin-top: 15px;
+}
+.sec7 .col .card .cardbody h3{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    margin-top: 8px;
+}
+.sec7 .txt {
+    text-align: center;
+    margin-bottom: 70px;
+}
+.sec7 .txt span{
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    color: #0779e4;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .sec7 .txt h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+
+/*  */
+.sec8{
+    padding: 80px;
+}
+.sec8 .col {
+    width: 33.33%;
+    float: left;
+    padding:  0px 15px;
+}
+.sec8 .col .card{
+    background-color: #fff;
+    text-align: center;
+    color:#0779e4;
+    padding :30px;
+}
+
+.sec8 .col .card span{
+    font-size: 50px;
+font-weight: 600;
+color: #0779e4;
+}
+.sec8 .col .card p{
+font-weight: 400;
+color: #999999;
+margin: 30px;
+    
+}
+.se8 .col .card h2{
+margin-bottom: 15px;
+}
+.sec8 .col .card button{
+    padding: 20px 50px;
+    text-transform: uppercase;
+    color: #0779e4;
+    border:1px solid #0779e4;
+        background-color: #fff;
+        border-radius: 3px;
+        font-weight: 700;
+        transition: all 1s;
+}
+.sec8 .col .card button:hover{
+    color: #fff;
+    background-color: #0779e4;
+}
+.sec9 .col {
+    width: 50%;
+    float: left;
+    
+}
+.sec9 .col iframe{
+    width: 100%;
+    height: 600px;
+}
+.sec9 .col .col2{
+    width: 33.33%;
+    float:left;
+    padding: 15px 30px;
+    margin-top: 10px;
+}
+.sec9 .col h3{
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: #000000;
+font-weight: 400;
+font-size: 30px;
+
+}
+.sec9 .col .pp{
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+    margin-left: 30px;
+  }
+.sec9 .col span{
+    color: #000000;
+display: block;
+text-transform: uppercase;
+font-size: 13px;
+font-weight: 700;
+margin-bottom: 15px;
+}
+.sec9 .col .col2 .p{
+    color: #999999;
+    font-size: 14px;
+}
+.sec9 .col input
+{
+    padding:15px 150px 15px 0px;
+    margin: 5px 15px;
+}
+.sec9 .col .subject input{
+    width: 650px;
+}
+.sec9 .col textarea{
+    margin-left: 15px;
+    width: 650px;
+}
+   
+.sec9 .col button{
+    background: #0779e4 !important;
+    border: 1px solid #0779e4 !important;
+    color: #fff !important;
+    text-align: center;
+    border-radius: 3px;
+    display: block;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+}
+.sec9 .col h2{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.sec9 .col a{
+    color: #0779e4;
+text-transform: uppercase;
+font-size: 13px;
+font-weight: 600;
+margin-right: 10px;
+margin-left: 15px;
+transition: all .5s;
+
+}
+.sec9 .col a:hover{
+    color: #000000;
+}
+.sec9{
+    background-color: #fff;
+}
+
+/*  */
+.sec10{
+    background-color: #0779e4;
+    padding: 50px;
+    color: #fff;
+}
+.sec10 .col{
+    width: 50%;
+    float: left;
+    padding: 20px 20px 20px 80px;
+}
+.sec10 .col h2{
+    color: #fff;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.sec10 .col p{
+    margin-top: 15px;
+}
+.sec10 .col button{
+    padding :20px 90px;
+    margin-left: 80px;
+    background-color: transparent;
+    border:2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.8s;
+}
+.sec10 .col button:hover{
+    color: #000000;
+    background-color: #fff;
+}
+footer .foot .col{
+    width:  33.33%;
+    float: left;
+    padding :0px 15px;
+}
+footer .foot .col .card{
+    padding: 50px;
+}
+footer .foot .col .card h2{
+    margin-bottom: 20px;
+}
+footer .foot .col .card ul{
+    list-style-type: none;
+}
+footer .foot .col .card li{
+    color: #999999;
+    margin-bottom: 20px;
+}
+footer .foot .col .card p{
+    color: #999999;
+    margin-bottom: 20px;
+ 
+}
+footer .foot .col .card li i{
+    color: #0779e4;
+    margin-right: 15px;
+}
+footer .foot .col .card2 i{
+    margin:10px 10px 10px 0px;
+    background-color: #0779e4;
+    padding:  15px 15px;
+   color: #f8f8f8;
+    border-radius: 50%;
+}
+footer .foot .col .card3 ul li {
+width: 80%;
+}
+
+
+
+
+footer  .foot{
+    padding: 50px;
+}
+
+footer .foot2 .ftxt{
+    margin-top: 30px;
+    text-align: center;
+    padding: 70px;
+
+    background: #e9e9e9 ;
+    font-weight: 400;
+    color: #999999;
+}
+footer .foot2 .ftxt a{
+    color: #0779e4;
+}
+/*  */
+@media screen and (max-width:1024px){
+    .sec1{
+        height: 800px;
+    }
+        .sec1 h1 {
+            font-size: 16px;
+    
+    
+        }
+        .sec1 h1,h2,p,button,.social{
+            margin-left: -50px;
+        }
+        /*  */
+        .sec2 .sora{
+            width:100%;
+        }
+        .sec2 .mine,h3{
+            margin-left: -30px;
+        }
+        /*  */
+        .sec3 .txt h2{
+            font-size: 30px;
+            font-weight: 100;
+        }
+       
+        .sec3 .col .card{
+            padding-left: 55px;
+          
+            margin-top: 15px;
+            font-size: 18px;
+        }
+        .sec3 .col .card .s{
+            margin-left: -50px;
+        }
+        .sec3 .kalam p{
+            margin-left: -2px;
+        }
+        /*  */
+       
+        .sec6 .col .card h2{
+            margin-left: 5px;
+        }
+       
+      /*  */
+      .sec7 .col .card .cardbody p,h3{
+        font-size: 30px; 
+        margin-left: 10px;  
+}
+/* .sec8 .col{
+    width: 100%;
+ } */
+ .sec8 .col .card button {
+    margin-left:-9px;
+    
+ }
+ /*  */
+ .sec9 .col{
+    width: 100%;
+    
+     }
+     .sec9 .col span,.p{
+        margin-left: 20px;
+     }
+     /*  */
+
+     .sec10 .col{
+        width:100%;
+     }
+     .sec10 .col  button{
+        margin-left: -40px
+     }
+     footer .foot .col{
+        width: 100%;
+     }
+}
+
+@media screen and (max-width:851px) {
+    .sec1{
+        height: 800px;
+    }
+        .sec1 h1 {
+            font-size: 16px;
+    
+    
+        }
+        .sec1 h1,h2,p,button,.social{
+            margin-left: -50px;
+        }
+        /*  */
+        .sec2 .sora{
+            width:100%;
+        }
+        .sec2 .mine,h3{
+            margin-left: -30px;
+        }
+        /*  */
+        .sec3 .txt h2{
+            font-size: 30px;
+            font-weight: 100;
+        }
+        .sec3 .col{
+            width:100%
+        }
+        .sec3 .col .card{
+            padding-left: 90px;
+          
+            margin-top: 15px;
+        }
+        .sec3 .kalam p{
+            margin-left: -2px;
+        }
+        /*  */
+        .sec6 .col{
+            width:100%
+        }
+        .sec6 .col .card h2{
+            margin-left: 10px;
+        }
+        .sec6 .col .card span{
+            margin-left: 3px;
+        }
+      /*  */
+      .sec7 .col .card .cardbody p,h3{
+        font-size: 20px; 
+        margin-left: 10px;  
+         }
+    /*  */
+    .sec8 .col{
+        width: 100%;
+     }
+     .sec8 .col .card {
+        margin-top: 20px;
+     }
+     /*  */
+     .sec9 .col{
+        width: 100%;
+        
+         }
+         .sec9 .col span,.p{
+            margin-left: 20px;
+         }
+         /*  */
+
+         .sec10 .col{
+            width:100%;
+         }
+         .sec10 .col  button{
+            margin-left: -40px
+         }
+         footer .foot .col{
+            width: 100%;
+         }
+    
+}
+@media screen and (max-width:768px){
+
+    .sec1{
+        height: 800px;
+    }
+        .sec1 h1 {
+            font-size: 16px;
+    
+    
+        }
+        .sec1 h1,h2,p,button,.social{
+            margin-left: -50px;
+        }
+        /*  */
+        .sec2 .sora{
+            width:100%;
+        }
+        .sec2 .mine,h3{
+            margin-left: -30px;
+        }
+        /*  */
+        .sec3 .txt h2{
+            font-size: 16px;
+            font-weight: 100;
+        }
+        .sec3 .col{
+            width:100%
+        }
+        .sec3 .col .card{
+            padding-left: 60px;
+          
+            margin-top: 15px;
+        }
+        .sec3 .kalam p{
+            margin-left: -2px;
+        }
+        /*  */
+        .sec4 .col .card {
+          font-size: 25px;
+        }
+        /*  */
+        .sec6 .col{
+            width:100%
+        }
+        .sec6 .col .card h2{
+            margin-left: 10px;
+        }
+        .sec6 .col .card span{
+            margin-left: 3px;
+        }
+        /*  */
+       
+        .sec7 .col .card .cardbody p,h3{
+    font-size: 16px; 
+    margin-left: 10px;  
+     }
+        /*  */
+        .sec8 .col{
+            width: 100%;
+         }
+         .sec8 .col .card {
+            margin-top: 20px;
+         }
+         /*  */
+         .sec9 .col{
+            width: 100%;
+            
+             }
+             .sec9 .col span,.p{
+                margin-left: 20px;
+             }
+             /*  */
+
+             .sec10 .col{
+                width:100%;
+             }
+             .sec10 .col  button{
+                margin-left: -40px
+             }
+             footer .foot .col{
+                width: 100%;
+             }
+
+}
+/*  */
+@media screen and (max-width:600px) 
+{
+
+
+.sec1{
+    height: 800px;
+}
+    .sec1 h1 {
+        font-size: 16px;
+
+
+    }
+    .sec1 h1,h2,p,button,.social{
+        margin-left: -50px;
+
+    }
+    /*  */
+    .sec2 .sora{
+        width:100%;
+    }
+    .sec2 .mine,h3{
+        margin-left: -50px;
+    }
+    /*  */
+    .sec3 .txt h2{
+        font-size: 16px;
+        font-weight: 100;
+    }
+    .sec3 .col{
+        width:100%
+    }
+    .sec3 .col .card{
+        padding-left: 70px;
+        margin-top: 15px;
+    }
+    .sec3 .kalam p{
+        margin-left: -2px;
+    }
+    /*  */
+    .sec4 .overlay .col {
+        width:100%;
+    } 
+    .sec4 .overlay .col .card h2{
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    .sec4 .overlay .col .card h2 i{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+    .sec4 .overlay .col .card{
+        margin-left: -20px;
+    }
+    /*  */
+    .sec5 .col{
+        width: 100%;
+
+    }
+    /*  */
+    .sec6 .col{
+        width:100%
+    }
+    .sec6 .col .card h2{
+        margin-left: 10px;
+    }
+    .sec6 .col .card span{
+        margin-left: 3px;
+    }
+    /*  */
+    .sec7 .col{
+        width: 100%;
+    }
+    .sec7 .col .card .cardbody p,h3{
+font-size: 13px; 
+margin-left: 10px;  
+ }
+ /*  */
+ .sec8 .col{
+    width: 100%;
+ }
+ .sec8 .col .card {
+    margin-top: 20px;
+ }
+ /*  */
+ .sec9 .col{
+width: 100%;
+
+ }
+ .sec9 .col span,.p{
+    margin-left: 20px;
+ }
+ /*  */
+ .sec10 .col{
+    width:100%;
+ }
+ .sec10 .col  button{
+    margin-left: -40px
+ }
+ /*  */
+ footer .foot .col{
+    width: 100%;
+ }
+ footer .foot2 .ftxt p{
+    font-size: 10px;
+ }
+}
