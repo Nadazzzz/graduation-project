@@ -1,0 +1,32 @@
+@import url(./layout/header.css);
+@import url(./vendor/bootstrap.min.css);
+@import url(./vendor/all.min.css);
+@import url(./vendor/fontawesome.min.css);
+@import url(./vendor/animate.css);
+
+/* pages */
+@import url(./pages/index.css);
+@import url(./pages/About.css);
+@import url(./pages/ourstudio.css);
+@import url(./pages/services.css);
+@import url(./pages/OurTeam.css);
+@import url(./pages/ContactUS.css);
+@import url(./pages/Blog.css);
+@import url(./pages/BlogPost.css);
+/*  layouts*/
+@import url(./layout/header.css);
+@import url(./layout/footer.css);
+/* compenents */
+@import url(./component/HomeBtn.css);
+@import url(./component/MAkeUpSEction.css);
+@import url(./component/cards.css);
+@import url(./component/whatweoofer.css);
+@import url(./component/OurStudio.css);
+@import url(./component/ContactForm.css);
+@import url(./component/tabs.css);
+
+
+/* bases */
+
+@import url(./base/base.css);
+@import url(./fonts);

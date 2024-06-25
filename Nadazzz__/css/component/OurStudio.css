@@ -1,0 +1,19 @@
+.ourStudio .ourStudio__txt{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.ourStudio .ourStudio__txt h1{
+    box-shadow: 0 0 20px #c89313;
+}
+.ourStudio .ourStudio__txt p{
+    width: 85%;
+    color: #a29f9f;
+
+}
+
+.ourStudio2 .ourStudio2__letter h2{
+    width: 90%;
+}

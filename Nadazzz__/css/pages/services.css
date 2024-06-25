@@ -1,0 +1,309 @@
+/* MackeUP section start */
+.MackeUP .MackeUP__img.services__img {
+    box-shadow: 0 0 15px var(--primary-color);
+
+}
+
+.MackeUP .MackeUP__txt .services__h1 {
+    box-shadow: 0 0 15px var(--primary-color);
+
+}
+
+.MackeUP .MackeUP__txt .services__button {
+    box-shadow: 0 0 15px var(--primary-color);
+
+}
+
+/* MackeUP section end */
+
+
+
+
+/* .services.WhatWeOffer  section start */
+.services.WhatWeOffer .Crousel_sec__txt h2 {
+    box-shadow: none;
+}
+
+.services.WhatWeOffer {
+    height: 700px;
+    position: relative;
+    background-image: url(../../img/eyeshadows-makeup_girl.jpg);
+    background-position: center;
+    z-index: 1;
+
+}
+
+.services.WhatWeOffer::after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    inset: 0;
+    opacity: 0.95;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+.services.WhatWeOffer .services__img1 {
+    position: absolute;
+    width: 535px;
+    top: -10%
+}
+
+.services.WhatWeOffer .services__img2 {
+    position: absolute;
+    width: 535px;
+    top: 48%;
+
+}
+
+.services.WhatWeOffer p,
+.services.WhatWeOffer ul li {
+    color: gray;
+    font: 16;
+}
+
+/* .services.WhatWeOffer  section End */
+
+/* tabs section start */
+.faqs .faqs__img img {
+    width: 85%;
+}
+
+/* tabs section end */
+
+/* media screen start */
+@media screen and (max-width:1440px) {
+
+
+
+    /*  */
+}
+
+@media screen and (max-width:1024px) {
+
+
+
+    .services__MackeUp {
+        position: relative;
+    }
+
+    .services__MackeUp .MackeUP__txt {
+        position: absolute;
+        top: -9%;
+        left: 3%;
+
+    }
+
+
+    .MackeUP .services__img img {
+        width: 400px;
+        margin-top: 20px;
+
+        margin-left: 70%;
+
+
+    }
+
+    .MackeUP .MackeUP__img.services__img {
+        box-shadow: 0 0 20px transparent;
+    }
+
+    /*  */
+    .services__MackeUp .MackeUP__txt h1 {
+        width: 80%;
+    }
+
+    .MackeUP .MackeUP__txt .services__txt {
+        font-size: 15px;
+
+    }
+
+    .MackeUP .services__txt {
+        margin-top: -10px;
+    }
+
+    .services.WhatWeOffer .services__img1 {
+        position: absolute;
+        width: 400px;
+        top: -10%;
+        left: 57%;
+    }
+
+    .services.WhatWeOffer .services__img2 {
+        position: absolute;
+        width: 400px;
+        top: 70%;
+        left: 57%
+    }
+
+    .services.WhatWeOffer .list1 {
+        margin-top: -35px;
+
+    }
+
+    .services.WhatWeOffer .list1 ul li {
+        font-size: 14px;
+    }
+
+    .services.WhatWeOffer .list2 {
+        margin-top: -40px;
+    }
+
+    .services.WhatWeOffer .list2 ul li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+
+    .services__MackeUp {
+        position: relative;
+    }
+
+    .services__MackeUp .MackeUP__txt {
+        position: absolute;
+        top: -9%;
+        left: 3%;
+
+    }
+
+
+    .MackeUP .services__img img {
+        width: 350px;
+        margin-top: -2px;
+
+        margin-left: 160px
+    }
+
+    /*  */
+
+    .MackeUP .MackeUP__img.services__img {
+        box-shadow: 0 0 20px transparent;
+    }
+
+    .MackeUP .MackeUP__txt .services__h1 {
+        width: 80%;
+    }
+
+    /*  */
+
+    .services.WhatWeOffer .Crousel_sec__txt {
+        margin-top: -90px;
+        margin-left: -50px;
+    }
+
+    .services.WhatWeOffer .list1 {
+        margin-top: -70px;
+
+    }
+
+    .services.WhatWeOffer .list2 {
+        margin-top: -100px;
+        margin-left: 23px;
+    }
+
+    .services.WhatWeOffer .services__img1 {
+        position: absolute;
+        width: 300px;
+        top: -9%;
+        left: 57%;
+    }
+
+    .services.WhatWeOffer .services__img2 {
+        position: absolute;
+        width: 300px;
+        top: 70%;
+        left: 57%
+    }
+
+
+
+    /*  */
+
+    .services.WhatWeOffer .Crousel_sec__txt h2 {
+        font-size: 50px;
+    }
+
+    /*  */
+    footer .footertxt3 {
+        margin-top: -90px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .services__MackeUp {
+        position: relative;
+    }
+
+    .services__MackeUp .MackeUP__txt {
+        position: absolute;
+        top: -9%;
+        left: -9%;
+
+    }
+
+    .services__MackeUp .MackeUP__txt h1 {
+        width: 80%;
+    }
+
+
+    .MackeUP .services__img img {
+        width: 350px;
+        margin-top: 90px;
+
+        margin-left: 50px
+    }
+
+
+
+    .MackeUP .MackeUP__img.services__img {
+        box-shadow: 0 0 20px transparent;
+    }
+
+    /*  */
+    .services__Cards {
+        margin-top: 80px;
+
+    }
+
+    /*  */
+    .services.WhatWeOffer .Crousel_sec__txt {
+        margin-top: -90px;
+        margin-left: -50px;
+    }
+
+    .services.WhatWeOffer .list1 {
+        margin-top: -50px;
+        margin-left: -30px;
+
+    }
+
+    .services.WhatWeOffer .list2 {
+        margin-top: -50px;
+        margin-left: 25px;
+    }
+
+    .services.WhatWeOffer .services__img1 {
+        position: absolute;
+        width: 220px;
+        top: -9%;
+        left: 57%;
+    }
+
+    .services.WhatWeOffer .services__img2 {
+        position: absolute;
+        width: 220px;
+        top: 70%;
+        left: 57%
+    }
+
+    .services.WhatWeOffer {
+        margin-bottom: 90px;
+    }
+
+
+
+}

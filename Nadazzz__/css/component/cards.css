@@ -1,0 +1,26 @@
+/* h4 */
+
+.cards .card {
+    background-color: transparent;
+    box-shadow: 0 0 20px rgba(139, 69, 19, 0.5);
+}
+.cards .card .card-body .card-title{
+  line-height: 1.2;
+  font-family: 'Italiana', serif;
+  color: #FFFFFF;
+  /*  */
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+}
+/* h5 */
+.cards .card .card-body .card-Subtitle{
+    color: #C89313;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+.cards .card .card-body .card-text{
+    width:90%
+}
+/*  */

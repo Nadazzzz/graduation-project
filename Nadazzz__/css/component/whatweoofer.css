@@ -1,0 +1,15 @@
+.WhatWeOffer .Crousel_sec__txt .WhatWeOffer__txt{
+    width:75%
+}
+.WhatWeOffer ul li{
+    color: #C6BFBF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8em;
+
+}
+.WhatWeOffer .Crousel_sec__txt h2{
+  box-shadow: 0px 0px 20px #C89313;
+
+}

@@ -1,0 +1,53 @@
+
+footer  ul li{
+    font-size: 18px;
+      font-weight: 500;
+      color: white;
+    }
+footer .footertxt3 span{
+    color: #C89313;
+  font-family: "Yeseva One", Sans-serif;
+  font-size: 37px;
+  font-weight: normal;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+} 
+/* footer .footertxt3 p {
+
+}    */
+footer .footertxt4 h5{
+    color: #C89313;
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 700;
+  line-height: 1.5em;
+}
+footer .footer__up a span i{
+    color: black;
+   
+
+}
+footer .footer__up{
+    position: relative;
+top: 20%;
+}
+/*  */
+footer .contactIcons span{
+    padding: 10px;
+    background-color: #C89313;
+    transition: all 0.5s;
+}
+
+.footer  .contactIcons span i{
+    color:white;
+    font-size: 18px;
+transition: all 0.5s;
+
+}
+footer .contactIcons span:hover {
+
+background-color:white;
+}
+footer .contactIcons span:hover i {
+
+color: #C89313;
+    }

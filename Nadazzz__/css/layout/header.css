@@ -1,0 +1,58 @@
+header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+}
+header .navbar .navbar-brand{
+    color: aliceblue;
+    color: #C89313;
+  font-family: "Yeseva One", Sans-serif;
+  font-size: 37px;
+  font-weight: normal;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+  font-family:Y_one ;
+}
+
+header .navbar-toggler{
+    background-color: #C89313;
+    color: white;
+    border-radius: 0%;
+}
+
+header .navbar .nav-item .nav-link{
+    color: #0C0805;
+  fill: #0C0805;
+  position: relative;
+    left: 10%;
+   
+    font-family: "Italiana", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 0.5em;
+  letter-spacing: 1.1px;
+  margin: 15px;
+  transition: all 0.5s;
+}
+header .navbar .nav-item .nav-link:hover{
+    color: #C89313;
+}
+
+header .navbar .nav-item .active{
+    color: #C89313;
+  
+}
+
+header .navbar .offcanvas .btn-close{
+    border: 7px solid
+    #C89313;
+    border-radius: 0%;
+}
+header .navbar .navbar-toggler{
+    position: relative;
+    top: 0;
+    right:0;
+    
+}

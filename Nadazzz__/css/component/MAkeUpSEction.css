@@ -1,0 +1,30 @@
+.MackeUP{
+    height: 700px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* .MackeUP .MackeUP__txt p {
+
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 1.5px;
+
+
+} */
+/* .MackeUP .MackeUP__txt .MackeUP__txt__First__P{
+ 
+
+    
+} */
+.MackeUP.picture .MackeUP__img img {
+  box-shadow: 0 0 20px rgba(139, 69, 19, 0.5);
+}
+.MackeUP .MackeUP__txt .MackeUP__txt__2nd__P{
+ color: #777;
+   
+}
+.p2nd{
+  letter-spacing: 0;
+}

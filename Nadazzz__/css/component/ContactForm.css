@@ -1,0 +1,73 @@
+.contact_info .contact__txt h2{
+    box-shadow: 0 0 90px #C89313;
+
+}
+.contact_info .contact__txt p{
+    width:80%;
+}
+
+.contact_info .contact__form form label{
+    font-weight: 600;
+    color: white;
+}
+.contact_info .contact__form form input{
+    background-color: transparent
+    ;
+    border:none;
+    border-bottom: 3px solid #C89313;
+    /* padding: 0px 80px; */
+    width: 100%;
+    
+}
+.contact_info .contact__form form textarea{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #C89313;
+    width: 100%;
+
+}
+.contact_info .contact__form form button{
+    width: 100%;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.5s;
+}
+.contact_info .contact__form form button:hover{
+    color: black;
+}
+.contact_info .contacttxt2 li{
+    color: white;
+}
+/*  */
+.contact_info   ul li span {
+    color: #C89313;
+}
+.contact_info   ul li{
+font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.contact_info  .contactIcons span{
+    padding: 10px;
+    background-color: #C89313;
+    transition: all 0.5s;
+}
+
+.contact_info  .contactIcons span i{
+    color:white;
+    font-size: 18px;
+transition: all 0.5s;
+
+}
+.contact_info  .contactIcons span:hover {
+
+background-color:white;
+}
+.contact_info  .contactIcons span:hover i {
+
+color: #C89313;
+    }
+.contact_info iframe{
+    box-shadow: 0 0 90px #C89313;
+  
+} 

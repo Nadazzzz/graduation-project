@@ -1,0 +1,625 @@
+/* home section start */
+.home {
+    height: 710px;
+    background-image: url(../../img/bg1.jpg);
+    background-size: auto;
+
+    background-position: top center;
+    width: 100%;
+
+    animation-name: photo;
+    animation-delay: 4s;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    position: relative;
+    overflow: hidden;
+
+    z-index: 1;
+
+
+
+}
+
+@keyframes photo {
+    0% {
+        background-image: url(../../img/bg1.jpg);
+
+        background-position: center;
+
+
+    }
+
+
+
+    20% {
+
+        background-image: url(../../img/bg2.jpg);
+
+
+
+    }
+
+    40% {
+        background-image: url(../../img/bg3.jpg);
+
+
+
+
+    }
+
+    60% {
+        background-image: url(../../img/bg4.jpg);
+
+
+
+    }
+
+    80% {
+        background-image: url(../../img/bg1.jpg);
+
+
+
+    }
+
+    100% {
+        background-image: url(../../img/bg2.jpg);
+
+
+
+    }
+
+
+}
+
+.home::after {
+    content: "";
+    background-color: #16110B;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+}
+.hometxt{
+    position: absolute;
+}
+.home .txtHome {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.home .txtHome h1 {
+
+    color: #FFFFFF;
+
+
+    font-family: 'Italiana', serif;
+    font-size: 84px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    width: 100%;
+
+    line-height: 1;
+    /*  */
+
+
+}
+
+/* home section End */
+
+/*  MackeUP2 section start*/
+.MackeUP2 {
+    height: 300px;
+    background-image: url(../../img/eyeshadows-makeup.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    /* overflow: hidden; */
+}
+
+.MackeUP2::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #16110B;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.97;
+}
+
+.MackeUP2 .MackeUP__txt h2 {
+
+    width: 70%;
+}
+
+.MackeUP2 .MackeUP__img {
+    position: absolute;
+    Width: 600px;
+    top: -50px;
+}
+
+/*  MackeUP2 section End*/
+
+/* Crousel_sec section start*/
+
+.Crousel_sec {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.Crousel_sec #carouselExampleCaptions {
+    box-shadow: 0 0 30px rgba(139, 69, 19, 0.5);
+}
+
+.Crousel_sec .carousel button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.Crousel_sec .Crousel_sec__txt p {
+
+    width: 80%;
+
+}
+
+.Crousel_sec .Crousel_sec__txt p strong {
+    letter-spacing: 1.5px;
+    color: hsl(0, 23%, 91%);
+}
+
+.Crousel_sec .Crousel_sec__txt .P2nd {
+    font-size: 15px;
+    width: 70%;
+}
+
+/* /* Crousel_sec section End*/
+/* txtCards section start */
+.txtCards {
+    padding: 80px;
+}
+
+.txtCards .card {
+    background-color: transparent;
+    box-shadow: 0 0 30px rgba(139, 69, 19, 0.5);
+
+
+}
+
+.txtCards .card h4 {
+    color: #FFFFFF;
+
+}
+
+.txtCards .card .card-body .card-text {
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 1.8em;
+}
+
+/*  txtCards section End*/
+/*  experience section start */
+
+.experience {
+    height: 450px;
+    background-image: url(../../img/blueshadow.jpg);
+    background-size: cover;
+    background-position: 0em 33%;
+    background-repeat: no-repeat;
+}
+
+.experience .txt {
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(139, 69, 19, 0.5);
+
+
+}
+
+.experience .txt span {
+    color: var(--primary-color);
+    font-family: "Italiana", Sans-serif;
+    font-size: 111px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.4px;
+}
+
+.experience .txt .experience__average p {
+    color: #FFFFFF;
+    font-family: "Italiana", Sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+/*  experience section End */
+
+/*  Qualified section start */
+
+.Qualified {
+    height: 250px;
+    background-image: url(../../img/powders-collection-showcase-in-make-up-shop.jpg);
+    background-position: bottom center;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+
+.Qualified .MackeUP__txt p {
+    width: 65%;
+}
+
+.Qualified::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #16110b;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+/*  Qualified section End */
+/* media screen strat */
+
+@media screen and (max-width:1440px) {
+    /* mazbota lw7dha*/
+}
+
+@media screen and (max-width:1024px) {
+
+    /*  */
+    .MackeUP {
+        position: relative;
+    }
+
+    .MackeUP .MackeUP__img {
+        width: 400px;
+        position: absolute;
+        top: 25%;
+        left: 5%;
+    }
+
+    /*  */
+    .MackeUP2 .MackeUP__img {
+        width: 300px;
+        top: 45%;
+        left: 70%;
+    }
+
+    /*  */
+
+    .Crousel_sec #carouselExampleCaptions {
+        margin-left: -5%;
+        margin-top: 90px;
+        width: 500px
+    }
+
+    /*  */
+
+    .faqs .faqs__img.faqs__img_home img {
+        margin-top: 30px;
+        width: 500px;
+        margin-left: -25%;
+    }
+
+    /*  */
+    .MackeUP.Qualified .MackeUP__txt {
+        margin-left: -50px;
+
+
+    }
+
+    /*  */
+    .Qualified iframe {
+        width: 400px;
+        height: 200px;
+
+    }
+
+    .contact_info .map iframe {
+
+        width: 200px;
+        height: 150px;
+        margin-top: 30%;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .MackeUP {
+        position: relative;
+    }
+
+    .MackeUP .MackeUP__img {
+        width: 350px;
+        position: absolute;
+        top: 37%;
+        left: 2%;
+    }
+
+    .MackeUP2 .MackeUP__img {
+        width: 250px;
+        top: 55%;
+        left: 40%;
+    }
+
+    /*  */
+    /*  */
+
+
+    .Crousel_sec #carouselExampleCaptions {
+        margin-left: 8%;
+        margin-top: 90px;
+        width: 500px
+    }
+
+    .faqs .faqs__img.faqs__img_home img {
+        margin-top: 30px;
+        width: 500px;
+        margin-left: 10%;
+    }
+
+    .faqs .faqs__tabs {
+        margin-top: -15%;
+    }
+
+    /*  */
+    .MackeUP.Qualified {
+        position: relative;
+    }
+
+    .MackeUP.Qualified .MackeUP__txt {
+        margin-left: -50px;
+        position: absolute;
+        top: -15%;
+        left: -2%;
+
+    }
+
+    .Qualified .MackeUP__video iframe {
+        height: 400px;
+        width: 600px;
+    }
+
+    .Qualified .MackeUP__video {
+
+        position: absolute;
+        top: 25%;
+        left: 15%;
+    }
+
+    /*  */
+    .contact_info {
+        position: relative;
+       
+        margin-bottom: 40%;
+       
+    }
+
+    .contact_info .contacttxt2 {
+
+        position: absolute;
+        left: -5%;
+
+    }
+
+    .contact_info .contacttxt2 iframe {
+        position: absolute;
+        left: 110%;
+        top: -30%;
+    }
+
+
+
+    .contact_info .contact__form form input {
+        width: 10%;
+
+    }
+
+    .contact_info .contacttxt2 {
+        margin-top: 20px;
+    }
+    /*  */
+    .contact_info  .contacttxt2.contacttxt2__home h4{
+        margin-top: 50px;
+        font-size: 30PX;
+        width: 100%;
+      
+    }
+    .contact_info  .contacttxt2.contacttxt2__home ul{width: 100%;
+        margin-top: 30%;
+    }
+    .contact_info  .contacttxt2.contacttxt2__home ul li{
+        font-size: 10px;
+    }
+    .contact_info .contacttxt2 iframe {
+        position: absolute;
+        left: 130%;
+        top: -30%;
+    }
+    
+    
+/*  */
+    footer {
+        position: relative;
+    }
+
+    footer .footertxt3 {
+        margin-top: 100px;
+    }
+
+    footer .footertxt4 {
+        margin-left: 20px;
+        margin-top: 110px;
+    }
+
+    footer .footertxt4.txt5 {
+        margin-left: -30%;
+        margin-top: -50px;
+    }
+
+    footer .footer__up span {
+        position: absolute;
+        right: 2%;
+
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .home .txtHome h1 {
+        font-size: 50px;
+    }
+.MackeUP.MackeUP.picture{
+    margin-top: -90px;
+}
+.MackeUP.MackeUP.picture .MackeUP__txt{
+    margin-left: -40px;
+}
+    .MackeUP.picture .MackeUP__img img {
+        margin-top: 60%;
+        margin-left: 90px;
+    }
+
+    .MackeUP2 .MackeUP__img {
+        width: 250px;
+        top: 55%;
+        left: 40%;
+    }
+
+    .MackeUP .MackeUP__txt h2 {
+        font-size: 30px;
+
+    }
+
+    .MackeUP .MackeUP__txt .home_qualified {
+        font-size: 16px;
+    }
+
+    .cards .card {
+        margin-top: 80px;
+
+    }
+
+    /*  */
+
+
+    .Crousel_sec #carouselExampleCaptions {
+        margin-left: 8%;
+        margin-top: 90px;
+        width: 400px
+    }
+
+    .faqs .faqs__img.faqs__img_home img {
+        margin-top: 30px;
+        width: 400px;
+        margin-left: 5%;
+    }
+
+    .faqs .faqs__tabs {
+        margin-top: -25%;
+    }
+
+    .MackeUP.Qualified {
+        position: relative;
+    }
+
+    .MackeUP.Qualified .MackeUP__txt {
+        margin-left: -50px;
+        margin-top: 100px;
+    }
+
+    .Qualified .MackeUP__video iframe {
+        height: 350px;
+        width: 400px;
+    }
+
+    .Qualified .MackeUP__video {
+
+        position: absolute;
+        top: 25%;
+        left: 20%;
+    }
+
+    .contact_info {
+        position: relative;
+    }
+
+    .contact_info .contact__form form input {
+        width: 10%;
+
+    }
+
+    .contact_info .contacttxt2 {
+
+        position: absolute;
+        left: -8%;
+
+    }
+    .contact_info  .contacttxt2.contacttxt2__home h4{
+        margin-top: 50px;
+        font-size: 30PX;
+        width: 100%;
+      
+    }
+    .contact_info  .contacttxt2.contacttxt2__home ul{width: 100%;
+        margin-top: 30%;
+    }
+    .contact_info  .contacttxt2.contacttxt2__home ul li{
+        font-size: 10px;
+    }
+    
+    .contact_info {
+        margin-bottom: 40%;
+    }
+
+    .contact_info .contacttxt2 iframe {
+        position: absolute;
+        left: 130%;
+        top: -30%;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    footer .footertxt3 span {
+        margin-top: 200px;
+    }
+
+    footer .footertxt4 {
+        margin-left: -90px;
+        margin-top: -20%;
+    }
+
+    footer .footertxt4.txt5 {
+        padding-left: 50px;
+
+    }
+
+    footer .footer__up span {
+        position: absolute;
+        right: 2%;
+        bottom: 3%;
+    }
+
+}
+
+/*  */

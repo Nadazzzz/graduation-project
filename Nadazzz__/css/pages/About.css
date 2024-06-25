@@ -1,0 +1,380 @@
+/* Mackeup section start */
+.MackeUP .MackeUP__txt .about__txt {
+    width: 80%;
+}
+
+.MackeUP .MackeUP__img.MackeUP__img1 {
+    box-shadow: 0px 0px 20px var(--primary-color);
+}
+
+/* Mackeup section End */
+/* About_overlay section start */
+
+.About_overlay {
+    height: 450px;
+    background-image: url(../../img/woman-face-with-beautiful-makeup.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+
+
+}
+
+.About_overlay::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #16110B;
+    ;
+    position: absolute;
+    inset: 0;
+    opacity: 0.71;
+    z-index: -1;
+
+
+}
+
+.About_overlay .About_overlay__txt {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.About_overlay .About_overlay__txt h3 {
+    width: 40%;
+
+}
+
+/*About_overlay section End */
+
+/* AboutMackeUp section start */
+.AboutMackeUp.MackeUP {
+    height: 500px;
+    background-image: url(../../img/bg5.jpg);
+}
+
+/*  */
+.AboutMackeUp.MackeUP::after {
+    opacity: 0.9;
+}
+
+/*  */
+.AboutMackeUp .MackeUP__img {
+    width: 440px;
+    top: 15%;
+}
+
+/* AboutMackeUp section End */
+
+/* lastsec start */
+.LastSec .LastSec__txt1 {
+    text-align: center;
+}
+
+.LastSec .LastSec__txt1 h2 {
+    box-shadow: 0 0 20px var(--primary-color);
+    ;
+}
+
+.LastSec .column1 .column1__img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.LastSec .column1 .column1__img img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+
+
+}
+
+.LastSec .column1 .column1__txt {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.LastSec .column1 .column1__txt p {
+    width: 75%;
+}
+
+.LastSec .column1 .column1__txt__span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.LastSec .column1 .column1__txt__span span {
+    color: #FFFFFF;
+}
+
+.LastSec .column1 .column1__txt__span h5 span {
+    color: var(--primary-color);
+    ;
+    font-family: "Montserrat", Sans-serif
+}
+
+/*  */
+
+.LastSec {
+    position: relative;
+    height: 100vh;
+}
+
+.LastSec::after {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    z-index: -1;
+
+}
+
+.LastSec .column1 .icon {
+    position: relative;
+    z-index: 1;
+}
+
+.LastSec .icon i {
+    position: absolute;
+    top: 35%;
+    left: 13%;
+
+    font-size: 150px;
+    z-index: -2;
+}
+
+.LastSec .column1 .icon2 {
+    position: relative;
+    z-index: 1;
+}
+
+.LastSec .icon2 i {
+    position: absolute;
+    bottom: 0%;
+    left: 35%;
+    top: 68%;
+
+    font-size: 150px;
+    z-index: -3;
+}
+
+/*  */
+.LastSec .column1 .icon3 {
+    position: relative;
+    z-index: 1;
+}
+
+.LastSec .icon3 i {
+    position: absolute;
+    top: 35%;
+    left: 56%;
+
+    font-size: 150px;
+    z-index: -3;
+}
+
+/*  */
+.LastSec .column1 .icon4 {
+    position: relative;
+    z-index: 1;
+}
+
+.LastSec .icon4 i {
+    position: absolute;
+    top: 68%;
+    left: 78%;
+
+    font-size: 150px;
+    z-index: -3;
+}
+
+/* LastSec section End */
+/* media screen start */
+@media screen and (max-width:1440px) {
+    /* totally perfect */
+}
+
+@media screen and (max-width:1024px) {
+
+
+    .MackeUP {
+
+        position: relative;
+    }
+
+    .MackeUP .MackeUP__txt.About__MackeUP__txt {
+        position: absolute;
+        top: 5%;
+    }
+
+    .MackeUP .MackeUP__img.About__MackeUP__img {
+        position: absolute;
+        top: 12%;
+        left: 2%;
+    }
+
+    .MackeUP .MackeUP__txt h1 {
+        font-size: 50px;
+
+    }
+
+    /*  */
+    .WhatWeOffer__about .Crousel_sec__txt h2 {
+        font-size: 45px;
+    }
+
+    .WhatWeOffer__about .list1 ul li {
+        font-size: 13px;
+    }
+
+    .WhatWeOffer__about .list2 ul li {
+        font-size: 13px;
+    }
+
+    .AboutMackeUp .MackeUP__img {
+        width: 400px;
+        top: 15%;
+        left: 0%;
+    }
+
+    footer {
+        margin-top: 80px;
+    }
+
+    footer .footertxt4 ul li {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .MackeUP {
+
+        position: relative;
+    }
+
+    .MackeUP .MackeUP__txt.About__MackeUP__txt {
+        position: absolute;
+        top: 5%;
+    }
+
+    .MackeUP .MackeUP__img.About__MackeUP__img {
+        position: absolute;
+        top: 15%;
+        left: -3%;
+    }
+
+    .MackeUP .MackeUP__txt h1 {
+        font-size: 30px;
+
+    }
+
+    .About_overlay .About_overlay__txt h3 {
+        width: 80%;
+    }
+
+    /*  */
+    .WhatWeOffer.WhatWeOffer__about .list2 {
+        margin-left: 3%;
+        ;
+    }
+
+    /*  */
+    .AboutMackeUp .MackeUP__img {
+        width: 240px;
+        top: 7%;
+        left: 50%;
+    }
+
+    .LastSec .column1__txt p {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    footer {
+        margin-top: -100px;
+    }
+
+    footer .footertxt4 {
+        margin-left: -80px;
+        margin-top: -60px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .MackeUP {
+        position: relative;
+    }
+
+    .MackeUP .MackeUP__txt.About__MackeUP__txt {
+        position: absolute;
+        top: -2%;
+    }
+
+    .MackeUP .MackeUP__img.About__MackeUP__img {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+    }
+
+    .MackeUP .MackeUP__txt {
+        margin-left: 50px;
+    }
+
+    .MackeUP .MackeUP__txt h1 {
+        font-size: 30px;
+
+    }
+
+    .About_overlay {
+        margin-top: 120px;
+    }
+
+    .About_overlay .About_overlay__txt h3 {
+        width: 80%;
+    }
+
+    /*  */
+    .WhatWeOffer.WhatWeOffer__about .list2 {
+        margin-left: 5%;
+        ;
+    }
+
+    /*  */
+    .AboutMackeUp .MackeUP__img {
+        width: 220px;
+        top: 62%;
+        left: 35%
+    }
+
+    /*  */
+    .LastSec .column1__txt p {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .LastSec .LastSec__txt1 h2 {
+        font-size: 50px;
+    }
+
+    footer {
+        margin-top: -90px;
+    }
+}
+
+/* media screens end */

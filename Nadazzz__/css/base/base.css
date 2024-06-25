@@ -1,0 +1,84 @@
+@import url(../fonts);
+@import url(../base/font.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    display: block;
+}
+:root {
+  --primary-color: #c89313;
+  
+}
+
+body{
+    background-color: black;
+
+}
+ul{
+    list-style: none;
+
+}
+li{
+  color: #FFFFFF;
+}
+a{
+color: #FFFFFF;
+    text-decoration: none;
+}
+h2{
+
+  color: #FFFFFF;
+  font-family: 'Italiana', serif;
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: 0.6px;
+  
+}
+ h1 {
+    color: #FFFFFF;
+  font-family: "Italiana", Sans-serif;
+  font-size: 84px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+  
+
+P{
+    color: #C6BFBF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.8em;
+
+}
+h4{
+    color: #FFFFFF;
+    font-family: "Italiana", Sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+}
+i{
+    color: var(--primary-color);
+}
+h3{
+    font-family: "Italiana", Sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  color :#FFFFFF
+  
+}
+h5{
+  color:var(--primary-color);
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 700;
+  line-height: 1.5em;
+}

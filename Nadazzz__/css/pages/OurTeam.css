@@ -1,0 +1,217 @@
+/* OurTeam section start */
+.OurTeam__MackeUP .MackeUP__img {
+    box-shadow: 0 0 20px #c89131;
+
+}
+
+.OurTeam__MackeUP .MackeUP__txt h2 {
+    box-shadow: 0 0 20px var(--primary-color);
+}
+
+/* OurTeam section End */
+
+
+/* TeamSlide section start */
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card .sliderItem {
+    box-shadow: 0 0 15px var(--primary-color);
+}
+
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card .sliderItem img {
+    filter: grayscale(100%);
+    transition: all .5s;
+
+
+}
+
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card .sliderItem__txt p {
+    Width: 85%
+}
+
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card {
+    transition: all .5s;
+}
+
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card:hover .sliderItem img {
+    transform: scale(1.3);
+    filter: grayscale(0%);
+
+}
+
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card .sliderItem {
+    position: relative;
+    overflow: hidden;
+}
+
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card .sliderItem .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card .sliderItem .overlay:hover {
+
+    opacity: 1;
+
+}
+
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card .sliderItem .sliderItem__socilList {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card .sliderItem .sliderItem__socilList ul li span {
+    background-color: var(--primary-color);
+    transition: all 0.5s;
+}
+
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card .sliderItem .sliderItem__socilList ul li span a i {
+    color: white;
+}
+
+.TeamSlide .slide .carousel-inner .carousel-item .slider__Card .sliderItem .sliderItem__socilList ul li span:hover {
+    background-color: black;
+}
+
+.TeamSlide .carousel-control-next {
+
+    right: -10%;
+    bottom: -10%;
+    ;
+}
+
+.TeamSlide .carousel-control-prev {
+
+    left: -10%;
+    bottom: -10%;
+    ;
+}
+
+.TeamSlide .carousel-control-next .carousel-control-next-icon {
+    transition: all 0.2s;
+}
+
+.TeamSlide .carousel-control-next .carousel-control-next-icon:hover {
+    background-color: var(--primary-color);
+}
+
+.TeamSlide .carousel-control-prev .carousel-control-prev-icon {
+    transition: all 0.2s;
+}
+
+.TeamSlide .carousel-control-prev .carousel-control-prev-icon:hover {
+    background-color: var(--primary-color);
+}
+
+/* TeamSlide section End */
+
+/* Apply section start */
+
+.Apply.MackeUP {
+    height: 560px;
+}
+
+.MackeUP2.Apply .MackeUP__img {
+    position: absolute;
+    Width: 500px;
+    top: -60px;
+}
+
+.Apply.MackeUP .MackeUP__txt .Apply__txt {
+    width: 85%
+}
+
+.OurTeam2.Apply .MackeUP__txt .OurTeam__button {
+    box-shadow: 0 0 70px var(--primary-color);
+}
+
+/* Apply section End */
+/* media screen start */
+@media screen and (max-width:1440px) {
+    /*  */
+}
+
+@media screen and (max-width:1024px) {
+    .OurTeam2.Apply .MackeUP__img {
+        width: 40%;
+        left: 55%;
+        top: 5%;
+
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .OurTeam__MackeUP {
+        margin-top: -50px;
+    }
+
+    .OurTeam__MackeUP .MackeUP__img {
+        box-shadow: none;
+    }
+
+    .OurTeam__MackeUP .MackeUP__img img {
+        margin-top: -30%;
+        width: 350px;
+        margin-left: -85px;
+    }
+
+    .OurTeam2.Apply .MackeUP__img {
+        width: 40%;
+        left: 60%;
+        top: 32%;
+
+    }
+
+    .OurTeam2.Apply .MackeUP__txt h2 {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .OurTeam__MackeUP {
+        margin-top: 0px;
+    }
+
+    .OurTeam__MackeUP {
+        position: relative;
+    }
+
+    .OurTeam__MackeUP .MackeUP__txt {
+        position: absolute;
+        top: -5%;
+        left: -3%;
+    }
+
+    .OurTeam__MackeUP .MackeUP__txt h2 {
+        width: 80%;
+    }
+
+    .OurTeam__MackeUP .MackeUP__img {
+
+        box-shadow: none;
+    }
+
+    .OurTeam__MackeUP .MackeUP__img img {
+        margin-top: 50%;
+        width: 400px;
+        margin-left: -20px;
+    }
+
+    .TeamSlide {
+        margin-top: 200px;
+    }
+
+    .OurTeam2.Apply .MackeUP__img {
+        width: 200px;
+        left: 60%;
+        top: 55%;
+
+    }
+}

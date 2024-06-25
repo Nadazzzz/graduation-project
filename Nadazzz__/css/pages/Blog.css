@@ -1,0 +1,79 @@
+/* blog section start */
+.blog .BlogHeader {
+    text-align: center;
+}
+
+.blog .BlogHeader h1 {
+    box-shadow: 0 0 20px var(--primary-color);
+}
+
+.blog .card {
+    background-color: transparent;
+    border-bottom: 2px solid var(--primary-color);
+    border-radius: 0%;
+    position: relative;
+    box-shadow: 0 0 20px var(--primary-color);
+
+}
+
+.blog .card .card-title .card-title-link {
+
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.6px;
+}
+
+.blog .card .ReadMore {
+    color: var(--primary-color);
+}
+
+.blog .card .card-text {
+    color: rgb(148, 147, 147);
+}
+
+.blog .beauty {
+    position: absolute;
+    right: 3%;
+    top: 8%;
+    background-color: var(--primary-color);
+    border-radius: 999px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+.blog .mackeup__Span {
+    position: absolute;
+    right: 3%;
+    top: 10%;
+    background-color: var(--primary-color);
+    border-radius: 999px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+
+}
+
+/* blog section End */
+/* media screen start */
+@media screen and (max-width:1440px) {
+    /* mazbota lw7dha */
+}
+
+@media screen and (max-width:1024px) {
+    /* mazbota lw7dha */
+
+}
+
+@media screen and (max-width:768px) {
+    /* mazbota lw7dha */
+
+
+}
+
+@media screen and (max-width:600px) {
+    /* mazbota lw7dha */
+
+}
+
