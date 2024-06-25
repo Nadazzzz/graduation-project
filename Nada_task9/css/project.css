@@ -1,0 +1,1280 @@
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: transparent;
+    padding: 0px 15px;
+    margin-top: -15px;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-link {
+    margin: 15px;
+}
+
+.nav-link:hover {
+    color: #FF4495;
+
+}
+
+header .nav-link {
+    transition: all 0.5s;
+    position: relative;
+}
+
+
+/*  */
+header .fl::before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #FF4495;
+    position: absolute;
+    top: 90%;
+    opacity: 1;
+    transition: all 0.5s;
+
+}
+
+header .fl:hover::before {
+    width: 55px;
+}
+
+header .f2::before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #FF4495;
+    position: absolute;
+    top: 90%;
+    opacity: 1;
+    transition: all 0.5s;
+
+}
+
+header .f2:hover::before {
+    width: 55px;
+}
+
+header .f3::before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #FF4495;
+    position: absolute;
+    top: 90%;
+    opacity: 1;
+    transition: all 0.5s;
+
+}
+
+header .f3:hover::before {
+    width: 65px;
+}
+
+header .f4::before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #FF4495;
+    position: absolute;
+    top: 90%;
+    opacity: 1;
+    transition: all 0.5s;
+
+}
+
+header .f4:hover::before {
+    width: 90px;
+}
+
+header .f5::before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #FF4495;
+    position: absolute;
+    top: 90%;
+    opacity: 1;
+    transition: all 0.5s;
+
+}
+
+header .f5:hover::before {
+    width: 50px;
+}
+
+header .f6::before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: #FF4495;
+    position: absolute;
+    top: 90%;
+    opacity: 1;
+    transition: all 0.5s;
+
+}
+
+header .f6:hover::before {
+    width: 65px;
+}
+
+
+.collapse form a {
+    margin: 25px;
+}
+
+.collapse form a span {
+    border-bottom: 1px dashed white;
+    color: aliceblue;
+    padding-bottom: 5px;
+}
+
+.btn_0 {
+
+    border: none;
+    /* padding: 11px 36px !important; */
+    text-transform: capitalize;
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(top, #ff4495 0%, #ff6d6d 100%, #7db9e8 100%);
+    transition: all 0.5s;
+
+}
+
+form .btn_0:hover {
+    background: -webkit-linear-gradient(bottom, #ff4495 0%, #ff6d6d 100%, #7db9e8 100%);
+}
+
+form .callUS {
+
+    color: #fff;
+}
+/* header end */
+/* fixed arrow styling srart */
+.fixed {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
+}
+
+.fixed i {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#FF4495;
+    font-size: 20px;
+    color: #FCF2EB;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.fixed i::after {
+    content: "";
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #2a2a2a1e;
+    opacity: 1;
+    position: absolute;
+    bottom: 0px;
+    top: -10px;
+    left: -10px;
+    right: 5px;
+    z-index: -1;
+
+}
+
+/* fixed arrow styling End */
+/* home strat */
+.home {
+    height: 100vh;
+    background-image: url(../img/home.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.hometxt h1 {
+    color: #192839;
+    font-family: "Nunito", sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 11px;
+    width: 55%;
+
+
+}
+
+.hometxt p {
+    color: #192839;
+    margin-bottom: 48px;
+    padding-right: 0;
+    font-size: 20px;
+    width: 55%;
+}
+
+.home .homeBody .hometxt .btn_0 {
+    transition: all 1s;
+}
+
+.home .homeBody .hometxt .btn_0:hover {
+    background: -webkit-linear-gradient(bottom, #ff4495 0%, #ff6d6d 100%, #7db9e8 100%);
+}
+
+/* services section start */
+.services .title {
+    text-align: center;
+}
+
+.services .title span {
+    color: #FF4495;
+}
+
+.services .title h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+
+    font-family: "Nunito", sans-serif;
+    color: #192839;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+    width: 35%;
+
+}
+
+/* services card start */
+.services .card {
+    position: relative;
+    z-index: 1;
+}
+
+.services .card-title {
+    color: #fff;
+    z-index: 1;
+}
+
+.services .card h5 a {
+    color: #192839;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.services .card p {
+    width: 80%;
+}
+
+.services .card span {
+    background-color: #FFE1EE;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.services .card span img {
+
+    width: 50%;
+}
+
+.services .card::before {
+    content: "";
+    width: 100%;
+    height: 0%;
+    background-color: #192839;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    bottom: 0%;
+    transition: top 0.3s ease;
+    opacity: 1;
+    transition: all 0.6s;
+    z-index: -1;
+}
+
+.services .card:hover {
+    color: #fff;
+}
+
+.services .card:hover h5 a {
+    color: white;
+
+}
+
+.services .card:hover::before {
+    color: white;
+    height: 100%;
+    top: 0%
+}
+
+/* about section start */
+.About .Abouttxt .span1 {
+    color: #FF4495;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+}
+
+.About .Abouttxt h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 36px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    width: 80%;
+}
+
+.About .Abouttxt p {
+    width: 70%
+}
+
+.About .Abouttxt .pp {
+    width: 80%;
+}
+
+/*  */
+.About .Abouttxt .span2 a {
+    position: relative;
+    color: #192839;
+    font-weight: 600;
+    transition: all 0.5s;
+
+
+}
+
+.About .Abouttxt .span2:hover {
+    letter-spacing: 1px;
+}
+
+
+
+.About .Abouttxt .span2 a::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #FF4495;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: all 0.5s;
+
+
+}
+
+.About .Abouttxt a:hover::before {
+    width: 110px;
+}
+
+/*  */
+
+/* pricing statr */
+.Pricing .card {
+    background-color: transparent;
+
+
+}
+
+.Pricing .container {
+    background-color: rgb(243, 254, 255);
+}
+
+.Pricing .title {
+    text-align: center;
+
+}
+
+.Pricing .title span {
+
+    color: #FF4495;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+}
+
+.Pricing .title h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+
+    font-family: "Nunito", sans-serif;
+    color: #192839;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: normal;
+
+
+}
+
+.Pricing .card {
+    text-align: center;
+    transition: all 0.5s;
+
+}
+
+.Pricing .card span img {
+
+    width: 50%;
+}
+
+.Pricing .card .imgspan {
+    background-color: white;
+    padding-top: 15px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.Pricing .card .txtspan {
+    color: #FF4495;
+}
+
+.Pricing .card h4 {
+    color: #192839;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Nunito", sans-serif;
+
+}
+
+.Pricing .card ul {
+    margin-bottom: 15px;
+}
+
+.Pricing .card ul li {
+    letter-spacing: 1px;
+
+
+}
+
+.Pricing .card:hover {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(139, 69, 19, 0.5);
+    border-radius: 0;
+
+
+}
+
+
+.Pricing .btn_0:hover {
+    background: white;
+    border: 1px solid #FF4495;
+    /* color: #FF4495; */
+    color: #FF4495 !important;
+}
+
+.Pricing .card ul li {
+    line-height: 1cm;
+}
+
+/* pricing end */
+/* seo start */
+/* seo end */
+.SEO .SEOtxt span {
+    color: #FF4495;
+    font-size: 13px;
+    font-weight: 400;
+
+    display: inline-block;
+    text-transform: uppercase;
+
+    font-family: "Nunito", sans-serif;
+
+}
+
+.SEO .line {
+    border-bottom: 1px solid black;
+}
+
+.SEO .SEOspan span {
+
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: inline-block;
+
+    font-family: "Nunito", sans-serif;
+
+}
+
+.SEO .SEOtxt h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 36px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    position: relative;
+    color: #192839;
+
+}
+
+.SEO .numbers1 {
+    border-right: 1px solid #777;
+}
+
+.SEO .numbers1 h2 {
+    color: #FF4495;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    line-height: 1;
+    margin-bottom: 0px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.SEO .numbers2 h2 {
+    color: #FF4495;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    line-height: 1;
+    margin-bottom: 0px;
+    display: inline-block;
+    text-transform: uppercase;
+    display: block;
+}
+
+.SEO .my-row {
+    border: .1px solid #bcbcbc;
+}
+
+.SEO .SEOspan {
+    transition: all .5s;
+}
+
+.SEO .SEOspan:hover {
+    transform: scaleX(1.1);
+}
+
+.SEO .SEOspan span {
+    position: relative;
+    color: #192839;
+    font-weight: 600;
+
+}
+
+.SEO .SEOspan span::before {
+    content: "";
+    width: 85px;
+    height: 3px;
+    background-color: #FF4495;
+    position: absolute;
+    top: 30px;
+    right: 0%;
+    left: 0%;
+    bottom: 0;
+    opacity: 1;
+
+
+}
+
+
+/* SEO end */
+/* casestudy start */
+.CaseStudy .title {
+    text-align: center;
+}
+
+.CaseStudy .title span {
+    color: #FF4495;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 18px;
+    letter-spacing: 2px;
+}
+
+.CaseStudy .title h2 {
+    font-family: "Nunito", sans-serif;
+    font-size: 36px;
+    display: block;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    width: 80%;
+}
+
+.CaseStudy .sliderItem {
+    position: relative;
+}
+
+.CaseStudy .sliderItem .slidertxt h2 {
+    font-weight: 500;
+    font-family: "Nunito", sans-serif;
+
+}
+
+.CaseStudy .sliderItem .slidertxt {
+    position: absolute;
+    top: 62%;
+    left: 35%;
+    bottom: 30%;
+    transform: translate(-50%, -50%);
+
+    color: #ffffff;
+}
+
+/* slide strt */
+.slide .slideBody {
+    text-align: center;
+}
+
+.slide .slideBody p {
+    color: #232F55;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 26px;
+    font-size: 26px;
+    margin-bottom: 30px;
+    font-family: "Jost", sans-serif;
+}
+
+.slide .slideBody span {
+    color: #192839;
+    font-size: 18px;
+    line-height: 1;
+    display: block;
+    font-weight: 400
+}
+
+/* slide end */
+/* interest start */
+.Interest {
+    padding: 29px 0;
+    height: 800px;
+    background-image: url(../img/contact-bg.jpg.webp);
+    background-position: left bottom;
+
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.Interest .myimg {
+    position: absolute;
+    top: 35%;
+ 
+    left: 50%;
+    position: relative;
+}
+
+.Interest .myimgtxt {
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    left: 4%;
+    z-index: 1;
+}
+
+.Interest .myimgtxt h5 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    display: block;
+    font-family: "Nunito", sans-serif;
+    width: 50%
+}
+
+.Interest .myimgtxt p {
+    color: white;
+    width: 60%;
+}
+
+/* */
+
+
+.mybtn {
+    position: relative;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 20px 40px;
+    border-radius: 25px;
+    z-index: 1;
+    margin-left: -50px;
+
+}
+
+.mybtn::before {
+    content: "";
+    width: 100%;
+    height: 0%;
+    background-color: white;
+    position: absolute;
+    inset: 0;
+    opacity: 1;
+    z-index: -1;
+    transition: all .4s;
+    border-radius: 25px;
+
+}
+
+.mybtn:hover {
+    color: #FF4495;
+}
+
+.mybtn:hover::before {
+    height: 100%;
+
+
+}
+
+
+/*  */
+footer {
+    background-image: url(../img/footer-bg.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* padding: 30px; */
+    color: black;
+
+}
+
+
+
+
+
+
+footer .foot1 .col .footSocial p {
+    color: black;
+    font-weight: 300;
+
+    line-height: 1.8;
+
+}
+
+
+footer .foot1 .col .footSocial ul {
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+footer .foot1 .col .footSocial ul li a i {
+    transition: 0.7s;
+}
+
+footer .foot1 .col .txt ul li .a1 {
+    text-decoration: underline;
+}
+
+footer .foot1 .col .txt ul li .a2 {
+    color: #FF4495;
+    text-decoration: underline;
+}
+
+/*  */
+footer .foot1 .col .footSocial ul li a i {
+    color: #777;
+}
+
+footer .foot1 .col .txt ul li a {
+    color: #777;
+}
+
+footer .foot1 .col .footSocial ul li a i:hover {
+    transform: rotatey(180deg);
+}
+
+
+/*  */
+footer .foot1 .col .txt h4 {
+    color: black;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Nunito Sans', sans-serif;
+
+
+}
+
+
+
+footer .foot1 .col .txt ul li a {
+    color: black;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: underline transparent;
+
+}
+
+footer .foot1 .col .txt ul li a:hover {
+    text-decoration: underline rgb(0, 0, 0);
+}
+
+footer .foot1 .col .txt ul li .a2:hover {
+    text-decoration: underline rgb(213, 23, 153);
+}
+
+
+
+
+
+.foot2 .copyright {
+    text-align: center;
+
+}
+
+.foot2 .copyright p {
+
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.foot2 .copyright p i {
+    color: #FF4495
+}
+
+.foot2 .copyright p a {
+    color: #ff4495;
+}
+
+/* footer end */
+@media screen and (max-width:1024px) {
+
+    /* header start */
+    header {
+        margin-top: 10px;
+    }
+
+    .collapse form a {
+        margin: 5px 0px 0px 0px;
+    }
+
+
+
+    /* services start */
+    .services {
+        padding-top: 30px;
+    }
+
+    .services .title h2 {
+        width: 100%;
+    }
+
+    /* pricing start */
+    .Pricing .btn_0 {
+        padding: 11px 36px !important;
+    }
+
+    /* about start */
+    .About .myimg img {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .About {
+        padding-bottom: 30px;
+    }
+
+    /* SEO */
+    .SEO .numbers1 {
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    .SEO p {
+        width: 90%
+    }
+
+    .SEO .SEOspan span {
+        margin-left: 14%;
+    }
+
+    /* interset */
+    .Interest .myimg {
+        left: 25%
+    }
+
+    .Interest .myimgtxt {
+        top: 20%;
+        left: 5%
+    }
+
+    .Interest .myimgtxt p {
+        width: 50%;
+    }
+
+
+}
+
+@media screen and (max-width:851px) {
+
+    /* header start */
+    form .callUS {
+        display: block;
+        color: #777;
+
+    }
+
+    header form .btn_0 {
+        display: block;
+
+    }
+
+    header ul li {
+        background-color: #e73381;
+        width: 20%;
+    }
+
+    .dropdown-menu {
+        --bs-dropdown-item-padding-x: 3rem;
+    }
+
+    .nav-link:hover {
+        color: white;
+
+    }
+
+    .collapse form a span {
+        display: block;
+        color: #777;
+    }
+
+    .collapse form a {
+        margin-top: 5px;
+    }
+
+    .collapse form a {
+        margin: 5px;
+    }
+
+    .collapse form {
+        margin-top: 50px;
+    }
+
+    /*  */
+    /* home start  */
+    .home {
+        height: 120vh;
+    }
+
+    .home .hometxt {
+        margin-left: 100px;
+    }
+
+    .home .hometxt h1 {
+        font-size: 20px;
+    }
+
+    /* services start */
+    .services {
+        padding-top: 30px;
+    }
+
+    .services .title h2 {
+        width: 100%;
+    }
+
+    /* about start */
+    .About .myimg img {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .About {
+        padding-bottom: 30px;
+    }
+
+    /* SEO */
+    .SEO .numbers1 {
+        padding-bottom: 50px;
+
+    }
+
+    .SEO p {
+        width: 90%
+    }
+
+    .SEO .SEOspan span {
+        margin-left: 14%;
+    }
+
+    /* interset */
+    .Interest .myimg {
+        left: 15%
+    }
+
+    .Interest .myimgtxt {
+        top: 20%;
+        left: 13%
+    }
+
+    .Interest .myimgtxt p {
+        width: 50%;
+    }
+
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    /* header start */
+    form .callUS {
+        display: block;
+        color: #777;
+
+    }
+
+    header form .btn_0 {
+        display: block;
+
+    }
+
+    header ul li {
+        background-color: #e73381;
+        width: 20%;
+    }
+
+    .dropdown-menu {
+        --bs-dropdown-item-padding-x: 3rem;
+    }
+
+    .nav-link:hover {
+        color: white;
+
+    }
+
+    .collapse form a span {
+        display: block;
+        color: #777;
+    }
+
+    .collapse form a {
+        margin-top: 5px;
+    }
+
+    .collapse form a {
+        margin: 5px;
+    }
+
+    .collapse form {
+        margin-top: 50px;
+    }
+
+    /*  */
+    /* home start  */
+    .home {
+        height: 120vh;
+    }
+
+    .home .hometxt {
+        margin-left: 90px;
+    }
+
+    .home .hometxt h1 {
+        font-size: 20px;
+    }
+
+    /* services start */
+    .services {
+        padding-top: 30px;
+    }
+
+    .services .title h2 {
+        width: 100%;
+    }
+
+    /* about start */
+    .About .myimg img {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .About {
+        padding-bottom: 30px;
+    }
+
+    /* SEO */
+    .SEO .numbers1 {
+        padding-bottom: 50px;
+
+    }
+
+    .SEO p {
+        width: 90%
+    }
+
+    .SEO .SEOspan span {
+        margin-left: 14%;
+    }
+
+    /* interset */
+    .Interest .myimg {
+        left: 15%
+    }
+
+    .Interest .myimgtxt {
+        top: 20%;
+        left: 13%
+    }
+
+    .Interest .myimgtxt p {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+
+    /* header start */
+    form .callUS {
+        display: block;
+        color: #777;
+
+    }
+
+    header form .btn_0 {
+        display: block;
+
+    }
+
+    header ul li {
+        background-color: #e73381;
+        width: 20%;
+    }
+
+    .dropdown-menu {
+        --bs-dropdown-item-padding-x: 3rem;
+    }
+
+    .nav-link:hover {
+        color: white;
+
+    }
+
+    .collapse form a span {
+        display: block;
+        color: #777;
+    }
+
+    .collapse form a {
+        margin-top: 5px;
+    }
+
+    .collapse form a {
+        margin: 5px;
+    }
+
+    .collapse form {
+        margin-top: 50px;
+    }
+
+
+    /*  */
+    /* home start */
+    .home {
+        height: 120vh;
+    }
+
+    .home .hometxt {
+        margin-left: 70px;
+    }
+
+    .home .hometxt h1 {
+        font-size: 20px;
+    }
+
+    /* services start */
+    .services {
+        padding-top: 30px;
+    }
+
+    .services .title h2 {
+        width: 100%;
+    }
+
+    /* about start */
+    .About .myimg img {
+        width: 70%;
+        margin-top: 5px;
+    }
+
+    .About {
+        padding-bottom: 30px;
+    }
+
+    /* SEO */
+    .SEO .numbers1 {
+        padding-bottom: 50px;
+        border-right: none;
+        border-bottom: 1px solid #777;
+        ;
+    }
+
+    .SEO .SEOspan span {
+        margin-left: 14%;
+    }
+
+    /* interset */
+    .Interest .myimg {
+        left: 15%
+    }
+
+    .Interest .myimgtxt {
+        top: 20%;
+        left: 13%
+    }
+}
