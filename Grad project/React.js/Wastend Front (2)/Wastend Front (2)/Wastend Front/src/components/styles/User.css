@@ -1,0 +1,71 @@
+.user-main {
+  background-color: var(--main-color);
+}
+.banner {
+  position: relative;
+  height: 100vh;
+  background-image: url("/src/assets/userbanner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0000003d;
+}
+.banner .center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.banner .center .heading {
+  font-weight: bold;
+  color: var(--text);
+  font-size: 60px;
+  text-align: center;
+}
+.banner .center .sotres {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner .center .sotres img {
+  width: 150px;
+  height: fit-content;
+  margin-right: 20px;
+}
+
+.getApp {
+  padding: 60px 0;
+  text-align: center;
+  color: var(--text);
+}
+.getApp .heading {
+  font-weight: bold;
+  font-size: 26px;
+}
+.getApp p {
+  font-size: 14px;
+  width: 80%;
+  margin: 40px auto;
+  text-align: start;
+}
+
+.wtn {
+  padding: 60px 0;
+  text-align: center;
+  color: var(--main-color);
+}
+.wtn .container .heading {
+  color: var(--main-color);
+}
+.wtn h2 {
+  font-weight: bold;
+  font-size: 30px;
+}

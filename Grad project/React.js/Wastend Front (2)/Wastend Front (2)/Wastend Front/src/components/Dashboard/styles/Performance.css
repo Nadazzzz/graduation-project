@@ -1,0 +1,63 @@
+.performance .content{
+    max-width: 100% !important;
+}
+
+.performance .card-data{
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+}
+.performance .period{
+    height: 100vh;
+    position: relative;
+}
+.performance .period .data{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+}
+ .filters{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.filters .filter{
+    padding: 10px;
+    border: 1px solid #DEE3E3;
+    border-radius: 8px;
+    min-width: 250px;
+    cursor: pointer;
+    color: black;
+    margin-top: 30px;
+}
+.filters .filter:not(:last-of-type){
+    margin-right:30px ;
+}
+.filters .filter.active{
+    color: white;
+    background-color: #00615f;
+}
+.filters .filter:hover{
+    border: 1px solid black;
+}
+.filters .filter h5{
+    width: fit-content;
+    font-weight: 500;
+    font-size: 16px;
+}
+.filters .filter h4{
+    width: fit-content;
+    font-weight: bold;
+    font-size: 18px;
+}
+.filter-data{
+    margin-top: 40px;
+}
+.filter-data h5{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}

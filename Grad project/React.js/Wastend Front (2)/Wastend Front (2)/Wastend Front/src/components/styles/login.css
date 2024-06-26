@@ -1,0 +1,72 @@
+.login-main {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.login-main .left {
+  position: relative;
+  flex-basis: 50%;
+  background-color: var(--main-color);
+  height: 100vh;
+}
+
+.login-main .left .logo {
+  position: absolute;
+  left: 60px;
+  top: 30px;
+  color: var(--text);
+}
+.login-main .left .text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--text);
+  font-size: 40px;
+  font-weight: bold;
+}
+.login-main .right {
+  flex-basis: 50%;
+  position: relative;
+}
+.login-main form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-main form .heading {
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--main-color);
+  margin-bottom: 18px;
+}
+.login-main form input {
+  margin-bottom: 30px;
+  padding: 12px 18px;
+  border-radius: 15px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border: 1px solid var(--main-color);
+}
+.login-main form input[type="submit"] {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.login-main form input[type="submit"]:hover {
+  background-color: var(--main-color);
+  color: var(--text);
+}
+
+.error-msg {
+  font-weight: bold;
+  color: red;
+}

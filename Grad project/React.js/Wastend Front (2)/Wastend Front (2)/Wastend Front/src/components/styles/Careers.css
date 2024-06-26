@@ -1,0 +1,147 @@
+.main{
+    background-image: url("../../assets/careersBanner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.main .text{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    color: var(--text);
+    text-align: center;
+    width: 100%;
+}
+.main .text h2{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main .text p{
+    font-size: 20px;
+}
+
+/* About Us Section Start */
+.aboutUs{
+    padding: 60px 0;
+    text-align: center;
+    background-color: var(--main-color);
+}
+.section-title{
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+.section-title h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--text);
+    margin-bottom:30px ;
+}
+.section-title span{
+    color: var(--main-button);
+}
+.section-title p{
+    font: 12px;
+    width: 90%;
+    margin: auto;
+    font-weight: normal;
+    color: var(--text);
+}
+.aboutUs .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.row .accordions{
+    flex-basis: 45%;
+}
+.row .image{
+    flex-basis: 45%;
+    background-image: url('../../assets/sideImage.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+/* About Us Section End */
+
+/* Our Ambition Start */
+.ourAmbition{
+    padding: 60px 0;
+    text-align: center;
+    background-color: var(--main-color);
+}
+.ourAmbition .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ourAmbition .row .card{
+    padding: 10px;
+    text-align: center;
+}
+.card .icon{
+    position: relative;
+
+}
+.ourAmbition .row .card svg{
+    color: var(--main-button);
+    font-size: 120px;
+}
+.ourAmbition .row .card h5{
+    position: absolute;
+    color: var(--text);
+    text-align: center;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -5px;
+    font-size: 30px;
+}
+.row .card p{
+    font-size: 12px;
+    margin: 20px auto;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+/* Our Ambition End */
+
+.benefits{
+    padding: 80px 0;
+    background-color: var(--main-color);
+    text-align: center;
+}
+.benefits .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:30px ;
+}
+.benefits .row .card{
+    padding: 10px;
+    text-align: center;
+    width: calc(100% / 3);
+}
+
+.benefits .row .card svg{
+    color: var(--main-button);
+    font-size: 120px;
+}
+.benefits .row .card h5{
+    color: var(--text);
+    text-align: center;
+    margin: 12px auto;
+    font-size: 30px;
+}
+.benefits .row .card p{
+    font-size: 12px;
+    margin: 20px auto;
+    width: 60%;
+    color: white;
+    text-align: center;
+}

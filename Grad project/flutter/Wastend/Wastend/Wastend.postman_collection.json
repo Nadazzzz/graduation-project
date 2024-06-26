@@ -1,0 +1,907 @@
+{
+	"info": {
+		"_postman_id": "bee4a76f-67e6-49b8-811d-b6ccc30dde7f",
+		"name": "Wastend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26798803"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Omar Ahmed",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "omar@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "pass123iksd",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "1234567890",
+									"type": "text"
+								},
+								{
+									"key": "longitude",
+									"value": "123.456",
+									"type": "text"
+								},
+								{
+									"key": "latitude",
+									"value": "78.901",
+									"type": "text"
+								},
+								{
+									"key": "photo",
+									"type": "file",
+									"src": "postman-cloud:///1eee3403-5607-44f0-b18c-cba37114d5d6"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"Omar Ahmed\",\r\n    \"password\": \"pass123iksd\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "account info",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/user/account-info/6604891bd2fd8d1c9a23db58",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"account-info",
+								"6604891bd2fd8d1c9a23db58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete account",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/user/6604891bd2fd8d1c9a23db58",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"6604891bd2fd8d1c9a23db58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "change password",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/change-password/6604891bd2fd8d1c9a23db58",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"change-password",
+								"6604891bd2fd8d1c9a23db58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Categories",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/store/stores/Restaurant",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"store",
+								"stores",
+								"Restaurant"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "surprisebag",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/meal/surprise-bag",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"meal",
+								"surprise-bag"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "donate by food",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"title\":\"Baked Donation\",\r\n  \"description\":\"Baked food items\",\r\n  \"foodCategory\":\"Baked\",\r\n  \"expirationDate\": \"2024-12-31\",\r\n  \"quantity\": 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/donation/food/6604891bd2fd8d1c9a23db58",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"donation",
+								"food",
+								"6604891bd2fd8d1c9a23db58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "paymentMethod",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"holderName\": \"omar\",\r\n  \"cardNumber\": \"1234567890888456\",\r\n  \"expirationDate\": \"10/24\",\r\n  \"cvc\": \"173\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/paymentCard/6604891bd2fd8d1c9a23db58",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"paymentCard",
+								"6604891bd2fd8d1c9a23db58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "donate money",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"amount\": 30,\r\n    \"cardId\":\"66048d31690b32ccdf99b33e\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/donation/money/6604891bd2fd8d1c9a23db58",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"donation",
+								"money",
+								"6604891bd2fd8d1c9a23db58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "stores_meals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/meal/surprise-bag",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"meal",
+								"surprise-bag"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "mealbyid",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/meal/meals/65e31c4b35c7bda08539fce9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"meal",
+								"meals",
+								"65e31c4b35c7bda08539fce9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "order",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"mealId\": \"65e31c4b35c7bda08539fce9\",\r\n  \"quantity\": 4,\r\n  \"paymentMethod\": \"Cash\",\r\n  \"deliveryOption\": \"Pickup\",\r\n  \"userId\": \"6604891bd2fd8d1c9a23db58\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/order/orders",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"order",
+								"orders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "profile",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/user/profile/65f4cca5087737a6b83e2908",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"profile",
+								"65f4cca5087737a6b83e2908"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update-profile",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Omar Ahmed\",\r\n    \"email\":\"OmarAhmed@gmail.com\",\r\n    \"phone\":\"14325784333\",\r\n     \"longitude\": 123.456,\r\n     \"latitude\": 78.901\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/update-profile/6604891bd2fd8d1c9a23db58",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"update-profile",
+								"6604891bd2fd8d1c9a23db58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "favorites",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\":\"6604891bd2fd8d1c9a23db58\",\r\n    \"mealId\":\"65e4923c26202e01ffc57200\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/user/addToFavorites",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"addToFavorites"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "all favorites",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/user/favoriteMeals/6604891bd2fd8d1c9a23db58",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"user",
+								"favoriteMeals",
+								"6604891bd2fd8d1c9a23db58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List(near-price-rating)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/meal/meals?option=Nearby&Location=123.4194,78.902",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"meal",
+								"meals"
+							],
+							"query": [
+								{
+									"key": "option",
+									"value": "Nearby"
+								},
+								{
+									"key": "Location",
+									"value": "123.4194,78.902"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reward",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/rewards/redeem/6604891bd2fd8d1c9a23db58",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"rewards",
+								"redeem",
+								"6604891bd2fd8d1c9a23db58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Display Reward",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/rewards/6604891bd2fd8d1c9a23db58",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"rewards",
+								"6604891bd2fd8d1c9a23db58"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get image",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/uploads/user-1710556850025.png",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"uploads",
+								"user-1710556850025.png"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Monay Shop\",\r\n    \"email\": \"Monaa@gmail.com\",\r\n    \"password\": \"238u8i868\",\r\n    \"phone\": \"1244105890\",\r\n    \"city\": \"New York\",\r\n    \"storeType\": \"Sweets\",\r\n    \"longitude\": 123.456,\r\n    \"latitude\": 78.901\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/supplier/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"supplier",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"Monaa@gmail.com\",\r\n    \"password\": \"238u8i868\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/supplier/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"supplier",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search for your store",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/supplier/search/Monay Shop",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"supplier",
+						"search",
+						"Monay Shop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "review",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/supplier/store-info/6604a57423537ebbdf8de0dc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"supplier",
+						"store-info",
+						"6604a57423537ebbdf8de0dc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "surprise bag",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"choculate\",\r\n  \"description\": \"A delightful surprise bag\",\r\n  \"category\": \"Food\",\r\n  \"price\": 6.99,\r\n  \"quantityPerDay\": 10,\r\n  \"dayOfWeek\": \"Mon\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/meal/6604a57423537ebbdf8de0dc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"meal",
+						"6604a57423537ebbdf8de0dc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view surprise bag",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/meal/display/6604a6b023537ebbdf8de0eb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"meal",
+						"display",
+						"6604a6b023537ebbdf8de0eb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Calendar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstDay\": \"2024-10-15\",\r\n  \"lastDay\": \"2024-10-20\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/calendar/calendar/6604a57423537ebbdf8de0dc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"calendar",
+						"calendar",
+						"6604a57423537ebbdf8de0dc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pickupDay",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"daysOfWeek\": [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\"],\r\n  \"pickUpTimes\": [\"11:22 AM\", \"11:22 AM\", \"11:22 AM\", \"11:22 AM\"],\r\n  \"dailyLimit\": 30\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/calendar/6604a57423537ebbdf8de0dc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"calendar",
+						"6604a57423537ebbdf8de0dc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "store info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/store/6604a57523537ebbdf8de0de",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"store",
+						"6604a57523537ebbdf8de0de"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "internal ref",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": \"6604a57523537ebbdf8de0de\",\r\n  \"internalReference\": \"Germent\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/store/6604a57523537ebbdf8de0de",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"store",
+						"6604a57523537ebbdf8de0de"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "account info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/supplier/6604a57423537ebbdf8de0dc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"supplier",
+						"6604a57423537ebbdf8de0dc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "showCalender",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/calendar/calendar/6604a57423537ebbdf8de0dc",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"calendar",
+						"calendar",
+						"6604a57423537ebbdf8de0dc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "performance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/performance/6604a57523537ebbdf8de0de",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"performance",
+						"6604a57523537ebbdf8de0de"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/performance/Insights/6604a57523537ebbdf8de0de",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"performance",
+						"Insights",
+						"6604a57523537ebbdf8de0de"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

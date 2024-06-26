@@ -1,0 +1,95 @@
+@media (max-width:991px) {
+    .page-main .nav{
+        position: absolute;
+        left: -100%;
+        background-color: white;
+        z-index: 1000000000000000;
+        transition: .3s;
+    }
+    .page-main header{
+        width: 100% !important;
+
+    }
+    .page-main header svg{
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .nav-toggler{
+        display: block;
+    }
+    .css-2ubu1g{
+            width: 90% !important;
+            max-height: 90% !important;
+            overflow-y: auto !important;
+    }
+    .css-1rv8zyt-MuiStack-root{
+        width: 90% !important;
+    }
+    .page-main .content-area .content{
+        padding: 20px !important;
+        height: fit-content;
+    }
+    .performance .card-data{
+        height: auto !important;
+    }
+    .date-picker{
+        padding: 0 !important;
+    }
+    .css-1rv8zyt-MuiStack-root{
+        overflow: visible !important;
+    }
+    .primary-button{
+        width: 70%;
+        margin: 30px 0;
+    }
+    .weekly-sch .row{
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .content-head{
+        padding: 0 10px;
+    }
+    .tabs{
+        display: flex;
+        align-items: center;
+        overflow-x:scroll;
+    }
+    .tabs button.active{
+        border-bottom: none !important;
+    }
+    .tabs button:not(:last-of-type){
+        width: auto !important;
+    }
+
+    .table .table-titles .title{
+        text-align: center;
+    }
+    .settings-card .card-head{
+        flex-direction: column;
+    }
+    .settings-card .card-head .text{
+        text-align: center;
+    }
+    .MuiBox-root.css-13lj2lh{
+        width: 300px !important;
+    }
+    .css-3nwxr6{
+        width: 90 !important;
+    }
+    .row .inputs{
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:992px) {
+    .nav-toggler{
+        display: none;
+    }
+    .page-main header{
+        justify-content: flex-end !important;
+    }
+    .close-nav{
+        display: none;
+    }
+}

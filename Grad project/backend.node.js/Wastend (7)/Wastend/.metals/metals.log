@@ -1,0 +1,11 @@
+2023.11.28 14:14:11 INFO  Started: Metals version 1.1.0 in folders 'D:\Wastend' for client Visual Studio Code 1.83.1.
+2023.11.28 14:14:13 WARN  Build server is not auto-connectable.
+2023.11.28 14:14:13 WARN  no build tool detected in workspace 'D:\Wastend'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.11.28 14:19:43 ERROR 2023-11-28 14:19:43 WARN  FS_Win32:156 - 
+2023.11.28 14:19:50 INFO  
+2023.11.28 14:19:50 INFO  Template applied in D:\Scala_Projects\.\lists
+2023.11.28 14:19:50 INFO  
+2023.11.28 14:19:50 INFO  time: ran 'giter8.Giter8' in 24s
+2023.11.28 14:20:14 INFO  Shutting down server
+2023.11.28 14:20:14 INFO  shutting down Metals
+2023.11.28 14:20:14 INFO  Exiting server

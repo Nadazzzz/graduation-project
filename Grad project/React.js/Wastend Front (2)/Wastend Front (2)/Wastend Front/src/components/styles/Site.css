@@ -1,0 +1,147 @@
+.landing {
+    background-color: var(--main-color);
+    padding: 30px 0;
+    color: var(--text);
+}
+
+.landing .row .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 800px;
+
+}
+
+.landing .row .left {
+    flex-basis: 45%;
+    align-self: flex-start;
+    margin-top: 80px;
+}
+
+.next-section {
+    font-size: 25px;
+    margin-top: 30px;
+    animation: up-to-down infinite .9s;
+    text-align: center;
+}
+
+.next-section svg {
+    color: var(--main-button);
+    cursor: pointer;
+}
+
+@keyframes up-to-down {
+    0% {
+        transform: translateY(8px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(8px);
+    }
+}
+
+.landing .row .right {
+    flex-basis: 45%;
+}
+
+.landing .row .right .img-holder img {
+    width: 100%;
+    height: 100%;
+}
+
+.landing .row .left .heading {
+    font-weight: bold;
+}
+
+.landing .row .left .heading h2 {
+    font-size: 35px;
+}
+
+.container .left .heading p:first-of-type {
+    margin-top: 30px;
+}
+
+.container .left .heading p:last-of-type {
+    margin-top: 60px;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.landing .icons {
+    padding: 20px;
+}
+
+.landing .icons .heading {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.landing .icons .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.landing .icons .row .card {
+    text-align: center;
+    width: calc(100% / 3);
+}
+
+.landing .icons .row .card .icon {
+    position: relative;
+
+}
+
+.landing .icons .row .card svg {
+    font-size: 50px;
+    color: var(--main-button);
+}
+
+.landing .icons .row .card .icon p {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--text);
+    font-size: 25px;
+}
+
+.landing .icons .row .card>p {
+    font-size: 12px;
+}
+
+.downloadApp {
+    padding: 60px 0;
+    text-align: center;
+
+}
+
+.downloadApp .heading {
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--main-color);
+    margin: 30px;
+}
+
+.downloadApp .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: none;
+}
+
+.downloadApp .left {
+    width: 380px;
+}
+
+.downloadApp .left img {
+    max-width: 100%;
+}

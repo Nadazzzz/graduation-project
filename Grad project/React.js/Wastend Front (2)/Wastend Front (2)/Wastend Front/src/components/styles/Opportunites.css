@@ -1,0 +1,42 @@
+.main-banner{
+    position: relative;
+}
+.main-banner .heading{
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%);
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--text);
+    margin-top: 30px ;
+}
+.heading span{
+    color: var(--main-button);
+}
+.main-banner .filters{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    bottom: 140px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.main-banner .filters select{
+    margin-right: 30px;
+    width: 250px;
+    background-color: var(--main-color);
+    border: none;
+    color: white;
+    border-radius: 15px;
+    border: 2px solid var(--main-button);
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+.main-banner .filters select:hover{
+    opacity: 0.9;
+}

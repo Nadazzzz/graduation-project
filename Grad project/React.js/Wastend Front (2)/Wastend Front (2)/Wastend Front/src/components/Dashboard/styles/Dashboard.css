@@ -1,0 +1,251 @@
+.page-main {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.page-main .content-area {
+  width: 100%;
+  position: relative;
+  flex-grow: 1;
+  overflow-x: auto;
+  margin-top: 70px;
+}
+.dashboard .content {
+  box-shadow: none;
+  max-width: 100%;
+}
+.page-main header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 270px);
+  right: 0;
+  height: 70px;
+  z-index: 1000 !important;
+  height: 72px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 720px) {
+  .page-main .content-area .content {
+    max-width: 640px;
+  }
+}
+.page-main .content-area .content {
+  margin-top: 64px;
+  max-width: 950px;
+  margin: 0px auto;
+  padding: 60px 20px;
+}
+.page-main .content-area .card {
+  display: flex;
+  width: 100%;
+  padding-bottom: 24px;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 12px;
+  border: 1px solid rgb(222, 227, 227);
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  height: 100%;
+}
+.page-main .content-area .card .card-title {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid var(--grey-color);
+}
+.page-main .content-area .card .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 24px;
+}
+.page-main .content-area .card .card-head {
+  position: relative;
+}
+.page-main .content-area .card .card-img {
+  position: relative;
+  background-image: url("../../../assets/dashboard-card-img.jpg");
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 0px;
+  padding-top: 38%;
+  margin-bottom: 48px;
+  border-radius: 4px;
+}
+.page-main .content-area .card .shop-logo {
+  position: absolute;
+  bottom: -38px;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: bold;
+  color: white;
+  font-size: 35px;
+  transform: translate(-50%);
+  padding: 10px;
+  border: 2px solid white;
+}
+
+.page-main .content-area .card .edit-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.page-main .content-area .card .data-title {
+  color: grey;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.page-main .content-area .card .data-details {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.page-main .content-area .tips {
+  margin: 30px 0;
+}
+.page-main .content-area .accordions {
+  margin: 30px 0;
+}
+.page-main .content-area .accordions .accordion {
+  background-color: rgb(255, 255, 255);
+  color: rgb(37, 45, 45);
+  position: relative;
+  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  overflow-anchor: none;
+  border-radius: 0px;
+  border: none;
+  box-shadow: none;
+  padding: 10px 0;
+}
+.accordion {
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.accordion .accordion-details {
+  margin-top: 10px;
+  height: 0;
+  overflow: hidden;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  padding: 0 10px;
+}
+.accordion .accordion-details.show {
+  height: 140px;
+  overflow: visible;
+}
+
+.module-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.module-head h2 {
+  font-size: 20px;
+}
+.module-head svg {
+  font-size: 20px;
+}
+.MuiBox-root .info {
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: grey;
+}
+.MuiToggleButtonGroup-root {
+  margin: 40px 0;
+  justify-content: center;
+  width: 100%;
+}
+.MuiToggleButtonGroup-root button {
+  width: 100%;
+}
+.MuiToggleButtonGroup-root button:not(.Mui-selected):hover {
+  background-color: white !important;
+  color: black;
+}
+.MuiToggleButtonGroup-root button.Mui-selected {
+  background-color: #00615f !important;
+  color: white;
+}
+
+.days {
+  margin: 20px 0;
+}
+
+.days button.day {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: transparent;
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+.days button.day:not(:last-of-type) {
+  margin-right: 15px;
+}
+.days button.day.selected {
+  background-color: #00615f;
+  color: white;
+  border: none;
+}
+
+.create-bag-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #00615f;
+  padding: 20px;
+  color: white;
+  border-radius: 20px;
+}
+.create-bag-area h3 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.create-bag-area button {
+  margin: 20px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  color: #00615f;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 24px;
+  min-height: 40px;
+  box-shadow: none;
+  min-width: auto;
+  text-transform: none;
+  font-weight: 500;
+}
+
+.css-4jnixx-MuiStack-root {
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+input.mealPhoto {
+  margin: 20px 0;
+}

@@ -1,0 +1,60 @@
+.help-center .content{
+    max-width: 100% !important;
+}
+
+.help-center .topic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 80%;
+}
+
+.help-center .topic .box{
+    border: 1px solid #E2E6E7;
+    cursor: pointer;
+    height: 176px;
+    padding: 24px;
+    max-width: 300px;
+    text-align: left;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.help-center .topic .box svg{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.help-center .topic .box h4{
+    font-weight: bold;
+}
+.help-center .topic .box p{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+
+.help-center .accordions-holder h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.help-center .accordions-holder .accordion{
+    border:1px solid #DEE3E3 ;
+    cursor: pointer;
+}
+.help-center .accordions-holder .accordion .accordion-details.show{
+    height: 250px;
+}
+.help-center .accordion .accordion-title{
+    padding: 10px;
+}
+.help-center .accordion .accordion-title.active{
+    background-color: #00615F;
+    color: white;
+
+}

@@ -1,0 +1,122 @@
+@media (max-width: 992px) {
+  .business-main .business .container img {
+    display: none;
+  }
+  header .navbar .container {
+    margin: 40px auto;
+  }
+  header .container .links {
+    display: none !important;
+  }
+  header .container .navbar-toggler {
+    display: block !important;
+  }
+  footer .container {
+    padding: 10px 0 !important;
+  }
+  footer .container .row {
+    flex-wrap: wrap !important;
+  }
+  .main .text h2 {
+    font-size: 30px !important;
+  }
+  .section-title h2 {
+    font-size: 35px !important;
+  }
+  .section-title p {
+    width: 100% !important;
+    font-size: 14px;
+  }
+  .aboutUs .row .accordions {
+    flex-basis: 100% !important;
+  }
+  .aboutUs .row .image {
+    display: none !important;
+  }
+  .benefits .row .card,
+  .benefits .row .card p {
+    width: 100% !important;
+  }
+  .benefits .row .card p {
+    font-size: 14px !important;
+  }
+
+  .diversity .heading h3 {
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .findJob .heading {
+    font-size: 30px !important;
+  }
+  .main-banner .heading {
+    font-size: 30px !important;
+    width: 90%;
+    margin-top: 20px !important;
+  }
+  .main-banner .filters {
+    bottom: 85px !important;
+    justify-content: center !important;
+  }
+  .main-banner .filters select {
+    margin-bottom: 20px;
+  }
+  .landing .row .container {
+    height: 450px !important;
+  }
+  .landing .row .left {
+    flex-basis: 100% !important;
+  }
+  .landing .row .right {
+    display: none !important;
+  }
+  .landing .icons {
+    margin-top: 80px !important;
+  }
+  .landing .icons .row .card {
+    width: 100% !important;
+  }
+  .landing .icons .row .card .icon p {
+    font-size: 18px !important;
+    width: 100% !important;
+  }
+  .downloadApp .heading {
+    font-size: 30px !important;
+  }
+  .downloadApp .left {
+    display: none !important;
+  }
+  .downloadApp .right {
+    margin-top: 20px;
+  }
+  .banner .center .heading {
+    font-size: 35px !important;
+  }
+  .banner .center .sotres img {
+    width: 120px !important;
+    margin-right: 10px !important;
+  }
+  .business #register .heading {
+    text-align: center;
+    font-size: 30px !important;
+  }
+  .heading {
+    font-size: 30px !important;
+  }
+  .slider .slide {
+    flex-direction: column !important;
+    padding: 0 !important;
+  }
+  .slider .slide img {
+    max-width: 260px !important;
+    margin-bottom: 10px;
+  }
+  .slider .slide .text {
+    text-align: center;
+  }
+}
+
+@media (min-width: 993px) {
+  header .container .navbar-toggler {
+    display: none;
+  }
+}

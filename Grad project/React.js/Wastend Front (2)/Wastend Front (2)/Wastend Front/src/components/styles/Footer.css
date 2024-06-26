@@ -1,0 +1,38 @@
+footer{
+    background-color: #F9F3F0;
+}
+footer .container{
+    padding: 30px;
+}
+footer .row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+ul{
+    text-align: start;
+}
+ul.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+}
+ul.social li{
+    margin-right: 20px;
+    font-size: 24px;
+}
+ul li{
+    margin: 30px 0;
+    font-size: 14px;
+    color: #056365;
+    cursor: pointer;
+}
+footer .container h4{
+    font-weight: bold;
+    font-size: 16px;
+    color: #056365;
+    text-align: center;
+
+}
